@@ -1,0 +1,861 @@
+Archive member included because of file (symbol)
+
+libutil_pic.a(ttymsg.pico)    (--whole-archive)
+libutil_pic.a(ttyaction.pico)
+                              (--whole-archive)
+libutil_pic.a(strpct.pico)    (--whole-archive)
+libutil_pic.a(stat_flags.pico)
+                              (--whole-archive)
+libutil_pic.a(sockaddr_snprintf.pico)
+                              (--whole-archive)
+libutil_pic.a(raise_default_signal.pico)
+                              (--whole-archive)
+libutil_pic.a(pty.pico)       (--whole-archive)
+libutil_pic.a(pidlock.pico)   (--whole-archive)
+libutil_pic.a(pidfile.pico)   (--whole-archive)
+libutil_pic.a(passwd.pico)    (--whole-archive)
+libutil_pic.a(parsedate.pico)
+                              (--whole-archive)
+libutil_pic.a(logwtmpx.pico)  (--whole-archive)
+libutil_pic.a(logwtmp.pico)   (--whole-archive)
+libutil_pic.a(logoutx.pico)   (--whole-archive)
+libutil_pic.a(logout.pico)    (--whole-archive)
+libutil_pic.a(login_tty.pico)
+                              (--whole-archive)
+libutil_pic.a(login_cap.pico)
+                              (--whole-archive)
+libutil_pic.a(loginx.pico)    (--whole-archive)
+libutil_pic.a(login.pico)     (--whole-archive)
+libutil_pic.a(if_media.pico)  (--whole-archive)
+libutil_pic.a(getmaxpartitions.pico)
+                              (--whole-archive)
+libutil_pic.a(getmntopts.pico)
+                              (--whole-archive)
+libutil_pic.a(getfsspecname.pico)
+                              (--whole-archive)
+libutil_pic.a(efun.pico)      (--whole-archive)
+libutil_pic.a(proc_compare.pico)
+                              (--whole-archive)
+libutil_pic.a(snprintb.pico)  (--whole-archive)
+libutil_pic.a(secure_path.pico)
+                              (--whole-archive)
+libutil_pic.a(pw_scan.pico)   (--whole-archive)
+libutil_pic.a(opendisk.pico)  (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+__pdnerrs           0x4               libutil_pic.a(parsedate.pico)
+__pddebug           0x4               libutil_pic.a(parsedate.pico)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(ttymsg.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(ttyaction.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(strpct.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(stat_flags.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(sockaddr_snprintf.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(raise_default_signal.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(pty.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(pidlock.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(pidfile.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(passwd.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(parsedate.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(logwtmpx.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(logwtmp.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(logoutx.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(logout.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(login_tty.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(login_cap.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(loginx.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(login.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(if_media.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(getmaxpartitions.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(getmntopts.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(getfsspecname.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(efun.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(proc_compare.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(snprintb.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(secure_path.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(pw_scan.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libutil_pic.a(opendisk.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libutil_pic.a
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4      0x6e8
+ *(.hash)
+ .hash          0x000000f4      0x6e8 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x000007dc      0xf30
+ *(.dynsym)
+ .dynsym        0x000007dc      0xf30 /usr/lib/crti.o
+
+.dynstr         0x0000170c      0x906
+ *(.dynstr)
+ .dynstr        0x0000170c      0x906 /usr/lib/crti.o
+
+.gnu.version    0x00002012        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x00002014        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x00002014        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x00002014      0xa68
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x00002014      0x4e8 /usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x000024fc       0x10 /usr/lib/crti.o
+ .rel.data.rel.local
+                0x0000250c      0x4e8 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x000029f4       0x88 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x00002a7c      0x520
+ *(.rel.plt)
+ .rel.plt       0x00002a7c      0x520 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x00002fa0        0xa
+ *(SORT(.init))
+ .init          0x00002fa0        0x3 /usr/lib/crti.o
+                0x00002fa0                _init
+ .init          0x00002fa3        0x5 /usr/lib/crtbeginS.o
+ .init          0x00002fa8        0x2 /usr/lib/crtn.o
+
+.plt            0x00002fb0      0xa50
+ *(.plt)
+ .plt           0x00002fb0      0xa50 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x00003a00     0xaf6c
+                0x00003a00                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x00003a00        0x0 /usr/lib/crti.o
+ .text          0x00003a00       0xef /usr/lib/crtbeginS.o
+ *fill*         0x00003aef        0x1 
+ .text          0x00003af0      0x32f libutil_pic.a(ttymsg.pico)
+                0x00003af0                ttymsg
+ *fill*         0x00003e1f        0x1 
+ .text          0x00003e20      0x3b8 libutil_pic.a(ttyaction.pico)
+                0x00003e20                ttyaction
+ *fill*         0x000041d8        0x8 
+ .text          0x000041e0      0x2e5 libutil_pic.a(strpct.pico)
+                0x000041e0                strspct
+                0x000042b0                strpct
+ *fill*         0x000044c5        0xb 
+ .text          0x000044d0      0x847 libutil_pic.a(stat_flags.pico)
+                0x000044d0                flags_to_string
+                0x00004760                string_to_flags
+ *fill*         0x00004d17        0x9 
+ .text          0x00004d20      0xe9b libutil_pic.a(sockaddr_snprintf.pico)
+                0x00004d20                sockaddr_snprintf
+ *fill*         0x00005bbb        0x5 
+ .text          0x00005bc0      0x19b libutil_pic.a(raise_default_signal.pico)
+                0x00005bc0                raise_default_signal
+ *fill*         0x00005d5b        0x5 
+ .text          0x00005d60      0x33f libutil_pic.a(pty.pico)
+                0x00005d60                openpty
+                0x00006010                forkpty
+ *fill*         0x0000609f        0x1 
+ .text          0x000060a0      0x5d2 libutil_pic.a(pidlock.pico)
+                0x000060a0                pidlock
+                0x000064b0                ttylock
+                0x000065a0                ttyunlock
+ *fill*         0x00006672        0xe 
+ .text          0x00006680      0x202 libutil_pic.a(pidfile.pico)
+                0x00006680                pidfile
+ *fill*         0x00006882        0xe 
+ .text          0x00006890     0x1590 libutil_pic.a(passwd.pico)
+                0x00006890                pw_getprefix
+                0x000068b0                pw_setprefix
+                0x00006930                pw_lock
+                0x00006a70                pw_mkdb
+                0x00006c10                pw_abort
+                0x00006cb0                pw_init
+                0x00006e40                pw_edit
+                0x00007050                pw_error
+                0x000070c0                pw_prompt
+                0x00007190                __pw_copy50
+                0x00007220                __pw_copyx50
+                0x00007910                pw_getconf
+                0x00007d30                __pw_getpwconf50
+ .text          0x00007e20     0x1f38 libutil_pic.a(parsedate.pico)
+                0x00007e20                __parsedate50
+                0x00008830                __pdparse
+ *fill*         0x00009d58        0x8 
+ .text          0x00009d60       0xe7 libutil_pic.a(logwtmpx.pico)
+                0x00009d60                logwtmpx
+ *fill*         0x00009e47        0x9 
+ .text          0x00009e50      0x105 libutil_pic.a(logwtmp.pico)
+                0x00009e50                logwtmp
+ *fill*         0x00009f55        0xb 
+ .text          0x00009f60       0xae libutil_pic.a(logoutx.pico)
+                0x00009f60                logoutx
+ *fill*         0x0000a00e        0x2 
+ .text          0x0000a010      0x163 libutil_pic.a(logout.pico)
+                0x0000a010                logout
+ *fill*         0x0000a173        0xd 
+ .text          0x0000a180       0x88 libutil_pic.a(login_tty.pico)
+                0x0000a180                login_tty
+ *fill*         0x0000a208        0x8 
+ .text          0x0000a210     0x1c06 libutil_pic.a(login_cap.pico)
+                0x0000a210                login_getclass
+                0x0000a3b0                __login_getpwclass50
+                0x0000a3e0                login_getcapstr
+                0x0000a4b0                login_getcaptime
+                0x0000a830                login_getcapnum
+                0x0000aa60                login_getcapsize
+                0x0000ac80                login_getcapbool
+                0x0000acd0                login_close
+                0x0000ad30                setuserenv
+                0x0000af00                setclasscontext
+                0x0000af90                __setusercontext50
+                0x0000b850                setuserpath
+ *fill*         0x0000be16        0xa 
+ .text          0x0000be20       0x38 libutil_pic.a(loginx.pico)
+                0x0000be20                __loginx50
+ *fill*         0x0000be58        0x8 
+ .text          0x0000be60       0xcd libutil_pic.a(login.pico)
+                0x0000be60                __login50
+ *fill*         0x0000bf2d        0x3 
+ .text          0x0000bf30      0x43a libutil_pic.a(if_media.pico)
+                0x0000bf30                get_media_type_string
+                0x0000bf80                get_media_subtype_string
+                0x0000bff0                get_media_mode_string
+                0x0000c050                get_media_option_string
+                0x0000c0f0                lookup_media_word
+                0x0000c160                get_media_mode
+                0x0000c1d0                get_media_subtype
+                0x0000c240                get_media_options
+ *fill*         0x0000c36a        0x6 
+ .text          0x0000c370       0x6b libutil_pic.a(getmaxpartitions.pico)
+                0x0000c370                getmaxpartitions
+ *fill*         0x0000c3db        0x5 
+ .text          0x0000c3e0      0x40b libutil_pic.a(getmntopts.pico)
+                0x0000c3e0                getmntoptstr
+                0x0000c470                getmntoptnum
+                0x0000c5d0                freemntopts
+                0x0000c610                getmntopts
+ *fill*         0x0000c7eb        0x5 
+ .text          0x0000c7f0      0x31d libutil_pic.a(getfsspecname.pico)
+                0x0000c7f0                getfsspecname
+ *fill*         0x0000cb0d        0x3 
+ .text          0x0000cb10      0x5c3 libutil_pic.a(efun.pico)
+                0x0000cb10                esetfunc
+                0x0000cb40                estrlcpy
+                0x0000cbb0                estrlcat
+                0x0000cc20                estrdup
+                0x0000cc70                estrndup
+                0x0000ccc0                emalloc
+                0x0000cd10                ecalloc
+                0x0000cd70                erealloc
+                0x0000cdd0                ereallocarr
+                0x0000ce40                efopen
+                0x0000cea0                easprintf
+                0x0000cf00                evasprintf
+                0x0000cf60                estrtoi
+                0x0000d020                estrtou
+ *fill*         0x0000d0d3        0xd 
+ .text          0x0000d0e0      0x173 libutil_pic.a(proc_compare.pico)
+                0x0000d0e0                proc_compare
+ *fill*         0x0000d253        0xd 
+ .text          0x0000d260      0xecc libutil_pic.a(snprintb.pico)
+                0x0000d260                snprintb_m
+                0x0000e0e0                snprintb
+ *fill*         0x0000e12c        0x4 
+ .text          0x0000e130       0x96 libutil_pic.a(secure_path.pico)
+                0x0000e130                secure_path
+ *fill*         0x0000e1c6        0xa 
+ .text          0x0000e1d0      0x57d libutil_pic.a(pw_scan.pico)
+                0x0000e1d0                __pw_scan50
+ *fill*         0x0000e74d        0x3 
+ .text          0x0000e750      0x21a libutil_pic.a(opendisk.pico)
+                0x0000e750                opendisk
+                0x0000e860                opendisk1
+ *fill*         0x0000e96a        0x2 
+ .text          0x0000e96c        0x0 /usr/lib/crtendS.o
+ .text          0x0000e96c        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x0000e970        0xa
+ *(SORT(.fini))
+ .fini          0x0000e970        0x3 /usr/lib/crti.o
+                0x0000e970                _fini
+ .fini          0x0000e973        0x5 /usr/lib/crtbeginS.o
+ .fini          0x0000e978        0x2 /usr/lib/crtn.o
+                0x0000e97a                PROVIDE (__etext, .)
+                0x0000e97a                PROVIDE (_etext, .)
+                0x0000e97a                PROVIDE (etext, .)
+
+.rodata         0x0000e97c     0x2712
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000e97c       0xdb libutil_pic.a(ttymsg.pico)
+                                 0xe0 (size before relaxing)
+ .rodata.str1.1
+                0x0000ea57      0x117 libutil_pic.a(ttyaction.pico)
+                                0x124 (size before relaxing)
+ .rodata.str1.1
+                0x0000eb6e        0xf libutil_pic.a(strpct.pico)
+ *fill*         0x0000eb7d        0x3 
+ .rodata        0x0000eb80       0x20 libutil_pic.a(stat_flags.pico)
+ .rodata.str1.1
+                0x0000eba0       0x6e libutil_pic.a(stat_flags.pico)
+                                 0x7a (size before relaxing)
+ *fill*         0x0000ec0e        0x2 
+ .rodata        0x0000ec10       0x2c libutil_pic.a(sockaddr_snprintf.pico)
+ .rodata.str1.1
+                0x0000ec3c      0x27a libutil_pic.a(sockaddr_snprintf.pico)
+                                0x27d (size before relaxing)
+ .rodata.str1.1
+                0x0000eeb6       0x5e libutil_pic.a(pty.pico)
+ .rodata.str1.1
+                0x0000ef14       0x25 libutil_pic.a(pidlock.pico)
+                                 0x2d (size before relaxing)
+ .rodata.str1.1
+                0x0000ef39       0x17 libutil_pic.a(pidfile.pico)
+                                 0x19 (size before relaxing)
+ .rodata.str1.1
+                0x0000ef50      0x1e4 libutil_pic.a(passwd.pico)
+                                0x229 (size before relaxing)
+ .rodata        0x0000f134     0x112c libutil_pic.a(parsedate.pico)
+ .rodata.str1.1
+                0x00010260      0x263 libutil_pic.a(parsedate.pico)
+                                0x2af (size before relaxing)
+ .rodata.str1.1
+                0x000104c3        0xf libutil_pic.a(logwtmpx.pico)
+ .rodata.str1.1
+                0x000104d2        0xe libutil_pic.a(logwtmp.pico)
+ .rodata.str1.1
+                0x000104e0        0xe libutil_pic.a(logout.pico)
+ *fill*         0x000104ee        0x2 
+ .rodata        0x000104f0       0x1b libutil_pic.a(login_cap.pico)
+ .rodata.str1.1
+                0x0001050b      0x33d libutil_pic.a(login_cap.pico)
+                                0x358 (size before relaxing)
+ .rodata.str1.1
+                0x00000000        0xf libutil_pic.a(loginx.pico)
+ .rodata.str1.1
+                0x00000000       0x1c libutil_pic.a(login.pico)
+ .rodata.str1.1
+                0x00010848      0x4f3 libutil_pic.a(if_media.pico)
+                                0x516 (size before relaxing)
+ .rodata        0x00010d3b       0x1c libutil_pic.a(getmntopts.pico)
+ .rodata.str1.1
+                0x00010d57       0x2d libutil_pic.a(getmntopts.pico)
+                                 0x2f (size before relaxing)
+ .rodata        0x00010d84        0x8 libutil_pic.a(getfsspecname.pico)
+ .rodata.str1.1
+                0x00010d8c       0x57 libutil_pic.a(getfsspecname.pico)
+                                 0x5c (size before relaxing)
+ .rodata.str1.1
+                0x00010de3      0x1c3 libutil_pic.a(efun.pico)
+ .rodata.str1.1
+                0x00010fa6       0x12 libutil_pic.a(snprintb.pico)
+ .rodata.str1.1
+                0x00010fb8       0x46 libutil_pic.a(secure_path.pico)
+ .rodata.str1.1
+                0x00010ffe       0x89 libutil_pic.a(pw_scan.pico)
+                                 0xae (size before relaxing)
+ .rodata.str1.1
+                0x00011087        0x7 libutil_pic.a(opendisk.pico)
+                                 0x11 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00011090      0x2fc
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00011090      0x2fc libutil_pic.a(ttymsg.pico)
+
+.eh_frame       0x0001138c      0xbd8
+ *(.eh_frame)
+ .eh_frame      0x0001138c       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x000113c8        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x000113c8       0x38 libutil_pic.a(ttymsg.pico)
+ .eh_frame      0x00011400       0x20 libutil_pic.a(ttyaction.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00011420       0x40 libutil_pic.a(strpct.pico)
+                                 0x58 (size before relaxing)
+ .eh_frame      0x00011460       0x40 libutil_pic.a(stat_flags.pico)
+                                 0x58 (size before relaxing)
+ .eh_frame      0x000114a0       0x20 libutil_pic.a(sockaddr_snprintf.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x000114c0       0x20 libutil_pic.a(raise_default_signal.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x000114e0       0x40 libutil_pic.a(pty.pico)
+                                 0x58 (size before relaxing)
+ .eh_frame      0x00011520       0x60 libutil_pic.a(pidlock.pico)
+                                 0x78 (size before relaxing)
+ .eh_frame      0x00011580       0x60 libutil_pic.a(pidfile.pico)
+                                 0x78 (size before relaxing)
+ .eh_frame      0x000115e0      0x1d8 libutil_pic.a(passwd.pico)
+                                0x1f0 (size before relaxing)
+ .eh_frame      0x000117b8       0x60 libutil_pic.a(parsedate.pico)
+                                 0x78 (size before relaxing)
+ .eh_frame      0x00011818       0x20 libutil_pic.a(logwtmpx.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00011838       0x20 libutil_pic.a(logwtmp.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00011858       0x20 libutil_pic.a(logoutx.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00011878       0x20 libutil_pic.a(logout.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00011898       0x20 libutil_pic.a(login_tty.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x000118b8      0x1d4 libutil_pic.a(login_cap.pico)
+                                0x1ec (size before relaxing)
+ .eh_frame      0x00011a8c       0x20 libutil_pic.a(loginx.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00011aac       0x20 libutil_pic.a(login.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00011acc       0xfc libutil_pic.a(if_media.pico)
+                                0x114 (size before relaxing)
+ .eh_frame      0x00011bc8       0x1c libutil_pic.a(getmaxpartitions.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x00011be4       0x80 libutil_pic.a(getmntopts.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x00011c64       0x20 libutil_pic.a(getfsspecname.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00011c84      0x1bc libutil_pic.a(efun.pico)
+                                0x1d4 (size before relaxing)
+ .eh_frame      0x00011e40       0x20 libutil_pic.a(proc_compare.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00011e60       0x40 libutil_pic.a(snprintb.pico)
+                                 0x58 (size before relaxing)
+ .eh_frame      0x00011ea0       0x20 libutil_pic.a(secure_path.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00011ec0       0x60 libutil_pic.a(pw_scan.pico)
+                                 0x78 (size before relaxing)
+ .eh_frame      0x00011f20       0x40 libutil_pic.a(opendisk.pico)
+                                 0x58 (size before relaxing)
+ .eh_frame      0x00011f60        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x00011f64       0x18
+ .note.netbsd.ident
+                0x00011f64       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x00011f7c       0x14
+ .note.netbsd.pax
+                0x00011f7c       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00011f90                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00012000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x00012000        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x00012000        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x00012004        0x4 /usr/lib/crtendS.o
+                0x00012004                __CTOR_LIST_END__
+
+.dtors          0x00012008        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x00012008        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0001200c        0x4 /usr/lib/crtendS.o
+
+.jcr            0x00012010        0x4
+ *(.jcr)
+ .jcr           0x00012010        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x00012010        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro    0x00012014      0x9bc
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x00012014       0x20 libutil_pic.a(passwd.pico)
+ .data.rel.ro.local
+                0x00012034      0x900 libutil_pic.a(parsedate.pico)
+ .data.rel.ro.local
+                0x00012934       0x9c libutil_pic.a(login_cap.pico)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x000129d0       0xb0
+ *(.dynamic)
+ .dynamic       0x000129d0       0xb0 /usr/lib/crti.o
+                0x000129d0                _DYNAMIC
+
+.got            0x00012a80       0x44
+ *(.got)
+ .got           0x00012a80       0x44 /usr/lib/crti.o
+ *(.igot)
+                0x00012ac4                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x00012ac4      0x29c
+ *(.got.plt)
+ .got.plt       0x00012ac4      0x29c /usr/lib/crti.o
+                0x00012ac4                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00012d60      0x538
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00012d60        0x0 /usr/lib/crti.o
+ .data          0x00012d60        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x00012d60       0x26 /usr/lib/crtbeginS.o
+                0x00012d60                __dso_handle
+ *fill*         0x00012d86        0x2 
+ .data          0x00012d88        0x0 libutil_pic.a(ttymsg.pico)
+ .data          0x00012d88        0x0 libutil_pic.a(ttyaction.pico)
+ .data          0x00012d88        0x0 libutil_pic.a(strpct.pico)
+ .data          0x00012d88        0x0 libutil_pic.a(stat_flags.pico)
+ .data          0x00012d88        0x0 libutil_pic.a(sockaddr_snprintf.pico)
+ .data          0x00012d88        0x0 libutil_pic.a(raise_default_signal.pico)
+ .data          0x00012d88        0x0 libutil_pic.a(pty.pico)
+ .data          0x00012d88        0x0 libutil_pic.a(pidlock.pico)
+ .data          0x00012d88        0x0 libutil_pic.a(pidfile.pico)
+ .data          0x00012d88        0x4 libutil_pic.a(passwd.pico)
+ .data          0x00012d8c        0x0 libutil_pic.a(parsedate.pico)
+ .data          0x00012d8c        0x0 libutil_pic.a(logwtmpx.pico)
+ .data          0x00012d8c        0x0 libutil_pic.a(logwtmp.pico)
+ .data          0x00012d8c        0x0 libutil_pic.a(logoutx.pico)
+ .data          0x00012d8c        0x0 libutil_pic.a(logout.pico)
+ .data          0x00012d8c        0x0 libutil_pic.a(login_tty.pico)
+ .data          0x00012d8c        0x0 libutil_pic.a(login_cap.pico)
+ .data          0x00012d8c        0x0 libutil_pic.a(loginx.pico)
+ .data          0x00012d8c        0x0 libutil_pic.a(login.pico)
+ .data          0x00012d8c        0x0 libutil_pic.a(if_media.pico)
+ .data.rel.local
+                0x00012d8c      0x508 libutil_pic.a(if_media.pico)
+                0x00012d8c                ifm_mode_descriptions
+                0x00012dd4                ifm_type_descriptions
+                0x00012e14                ifm_subtype_descriptions
+                0x0001319c                ifm_option_descriptions
+ .data          0x00013294        0x0 libutil_pic.a(getmaxpartitions.pico)
+ .data          0x00013294        0x0 libutil_pic.a(getmntopts.pico)
+ .data          0x00013294        0x0 libutil_pic.a(getfsspecname.pico)
+ .data          0x00013294        0x0 libutil_pic.a(efun.pico)
+ .data.rel      0x00013294        0x4 libutil_pic.a(efun.pico)
+ .data          0x00013298        0x0 libutil_pic.a(proc_compare.pico)
+ .data          0x00013298        0x0 libutil_pic.a(snprintb.pico)
+ .data          0x00013298        0x0 libutil_pic.a(secure_path.pico)
+ .data          0x00013298        0x0 libutil_pic.a(pw_scan.pico)
+ .data          0x00013298        0x0 libutil_pic.a(opendisk.pico)
+ .data          0x00013298        0x0 /usr/lib/crtendS.o
+ .data          0x00013298        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x00013298                _edata = .
+                0x00013298                PROVIDE (edata, .)
+                0x00013298                . = .
+                0x00013298                __bss_start = .
+
+.bss            0x00013298     0x141c
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00013298        0x0 /usr/lib/crti.o
+ .bss           0x00013298        0x0 /usr/lib/crtbeginS.o
+ .bss           0x00013298      0x400 libutil_pic.a(ttymsg.pico)
+ .bss           0x00013698        0x0 libutil_pic.a(ttyaction.pico)
+ .bss           0x00013698        0x0 libutil_pic.a(strpct.pico)
+ .bss           0x00013698        0x0 libutil_pic.a(stat_flags.pico)
+ .bss           0x00013698        0x0 libutil_pic.a(sockaddr_snprintf.pico)
+ .bss           0x00013698        0x0 libutil_pic.a(raise_default_signal.pico)
+ .bss           0x00013698        0x0 libutil_pic.a(pty.pico)
+ .bss           0x00013698        0x0 libutil_pic.a(pidlock.pico)
+ .bss           0x00013698        0x9 libutil_pic.a(pidfile.pico)
+ *fill*         0x000136a1        0x3 
+ .bss           0x000136a4     0x1000 libutil_pic.a(passwd.pico)
+ .bss           0x000146a4        0x0 libutil_pic.a(parsedate.pico)
+ .bss           0x000146a4        0x0 libutil_pic.a(logwtmpx.pico)
+ .bss           0x000146a4        0x0 libutil_pic.a(logwtmp.pico)
+ .bss           0x000146a4        0x0 libutil_pic.a(logoutx.pico)
+ .bss           0x000146a4        0x0 libutil_pic.a(logout.pico)
+ .bss           0x000146a4        0x0 libutil_pic.a(login_tty.pico)
+ .bss           0x000146a4        0x1 libutil_pic.a(login_cap.pico)
+ *fill*         0x000146a5        0x3 
+ .bss           0x000146a8        0x0 libutil_pic.a(loginx.pico)
+ .bss           0x000146a8        0x0 libutil_pic.a(login.pico)
+ .bss           0x000146a8        0x0 libutil_pic.a(if_media.pico)
+ .bss           0x000146a8        0x0 libutil_pic.a(getmaxpartitions.pico)
+ .bss           0x000146a8        0x4 libutil_pic.a(getmntopts.pico)
+                0x000146a8                getmnt_silent
+ .bss           0x000146ac        0x0 libutil_pic.a(getfsspecname.pico)
+ .bss           0x000146ac        0x0 libutil_pic.a(efun.pico)
+ .bss           0x000146ac        0x0 libutil_pic.a(proc_compare.pico)
+ .bss           0x000146ac        0x0 libutil_pic.a(snprintb.pico)
+ .bss           0x000146ac        0x0 libutil_pic.a(secure_path.pico)
+ .bss           0x000146ac        0x0 libutil_pic.a(pw_scan.pico)
+ .bss           0x000146ac        0x0 libutil_pic.a(opendisk.pico)
+ .bss           0x000146ac        0x0 /usr/lib/crtendS.o
+ .bss           0x000146ac        0x0 /usr/lib/crtn.o
+ *(COMMON)
+ COMMON         0x000146ac        0x8 libutil_pic.a(parsedate.pico)
+                0x000146ac                __pdnerrs
+                0x000146b0                __pddebug
+                0x000146b4                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000146b4                . = ALIGN (0x4)
+                0x000146b4                . = ALIGN (0x4)
+                0x000146b4                _end = .
+                0x000146b4                PROVIDE (end, .)
+                0x000146b4                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libutil_pic.a(ttymsg.pico)
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 libutil_pic.a(ttyaction.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(strpct.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(stat_flags.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(sockaddr_snprintf.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(raise_default_signal.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(pty.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(pidlock.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(pidfile.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(passwd.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(parsedate.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(logwtmpx.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(logwtmp.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(logoutx.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(logout.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(login_tty.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(login_cap.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(loginx.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(login.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(if_media.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(getmaxpartitions.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(getmntopts.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(getfsspecname.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(efun.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(proc_compare.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(snprintb.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(secure_path.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(pw_scan.pico)
+ .comment       0x00000000       0x30 libutil_pic.a(opendisk.pico)
+
+.ident          0x00000000      0x7a4
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x39 libutil_pic.a(ttymsg.pico)
+ .ident         0x000000a9       0x3d libutil_pic.a(ttyaction.pico)
+ .ident         0x000000e6       0x3b libutil_pic.a(strpct.pico)
+ .ident         0x00000121       0x3d libutil_pic.a(stat_flags.pico)
+ .ident         0x0000015e       0x46 libutil_pic.a(sockaddr_snprintf.pico)
+ .ident         0x000001a4       0x47 libutil_pic.a(raise_default_signal.pico)
+ .ident         0x000001eb       0x39 libutil_pic.a(pty.pico)
+ .ident         0x00000224       0x3d libutil_pic.a(pidlock.pico)
+ .ident         0x00000261       0x3d libutil_pic.a(pidfile.pico)
+ .ident         0x0000029e       0x37 libutil_pic.a(passwd.pico)
+ .ident         0x000002d5       0x3a libutil_pic.a(parsedate.pico)
+ .ident         0x0000030f       0x38 libutil_pic.a(logwtmpx.pico)
+ .ident         0x00000347       0x38 libutil_pic.a(logwtmp.pico)
+ .ident         0x0000037f       0x37 libutil_pic.a(logoutx.pico)
+ .ident         0x000003b6       0x38 libutil_pic.a(logout.pico)
+ .ident         0x000003ee       0x3d libutil_pic.a(login_tty.pico)
+ .ident         0x0000042b       0x3c libutil_pic.a(login_cap.pico)
+ .ident         0x00000467       0x36 libutil_pic.a(loginx.pico)
+ .ident         0x0000049d       0x36 libutil_pic.a(login.pico)
+ .ident         0x000004d3       0x3b libutil_pic.a(if_media.pico)
+ .ident         0x0000050e       0x43 libutil_pic.a(getmaxpartitions.pico)
+ .ident         0x00000551       0x3c libutil_pic.a(getmntopts.pico)
+ .ident         0x0000058d       0x42 libutil_pic.a(getfsspecname.pico)
+ .ident         0x000005cf       0x37 libutil_pic.a(efun.pico)
+ .ident         0x00000606       0x41 libutil_pic.a(proc_compare.pico)
+ .ident         0x00000647       0x39 libutil_pic.a(snprintb.pico)
+ .ident         0x00000680       0x3b libutil_pic.a(secure_path.pico)
+ .ident         0x000006bb       0x3d libutil_pic.a(pw_scan.pico)
+ .ident         0x000006f8       0x3e libutil_pic.a(opendisk.pico)
+ .ident         0x00000736       0x38 /usr/lib/crtendS.o
+ .ident         0x0000076e       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libutil.so.7.23 elf32-i386-minix)

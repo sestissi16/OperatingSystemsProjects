@@ -1,0 +1,368 @@
+Archive member included because of file (symbol)
+
+libDECHanyu_pic.a(citrus_dechanyu.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libDECHanyu_pic.a(citrus_dechanyu.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libDECHanyu_pic.a
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4       0x94
+ *(.hash)
+ .hash          0x000000f4       0x94 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000188      0x120
+ *(.dynsym)
+ .dynsym        0x00000188      0x120 /usr/lib/crti.o
+
+.dynstr         0x000002a8      0x12f
+ *(.dynstr)
+ .dynstr        0x000002a8      0x12f /usr/lib/crti.o
+
+.gnu.version    0x000003d8        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x000003d8        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x000003d8        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x000003d8      0x118
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x000003d8        0x8 /usr/lib/crti.o
+ .rel.data.rel.local
+                0x000003e0       0xd8 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x000004b8       0x38 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x000004f0       0x40
+ *(.rel.plt)
+ .rel.plt       0x000004f0       0x40 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x00000530        0xa
+ *(SORT(.init))
+ .init          0x00000530        0x3 /usr/lib/crti.o
+                0x00000530                _init
+ .init          0x00000533        0x5 /usr/lib/crtbeginS.o
+ .init          0x00000538        0x2 /usr/lib/crtn.o
+
+.plt            0x00000540       0x90
+ *(.plt)
+ .plt           0x00000540       0x90 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x000005d0     0x1a68
+                0x000005d0                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x000005d0        0x0 /usr/lib/crti.o
+ .text          0x000005d0       0xef /usr/lib/crtbeginS.o
+ *fill*         0x000006bf        0x1 
+ .text          0x000006c0     0x1975 libDECHanyu_pic.a(citrus_dechanyu.pico)
+                0x00001940                _citrus_DECHanyu_ctype_getops
+                0x00001dc0                _citrus_DECHanyu_stdenc_getops
+ *fill*         0x00002035        0x3 
+ .text          0x00002038        0x0 /usr/lib/crtendS.o
+ .text          0x00002038        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x00002040        0xa
+ *(SORT(.fini))
+ .fini          0x00002040        0x3 /usr/lib/crti.o
+                0x00002040                _fini
+ .fini          0x00002043        0x5 /usr/lib/crtbeginS.o
+ .fini          0x00002048        0x2 /usr/lib/crtn.o
+                0x0000204a                PROVIDE (__etext, .)
+                0x0000204a                PROVIDE (_etext, .)
+                0x0000204a                PROVIDE (etext, .)
+
+.rodata
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+
+.note.netbsd.ident
+                0x0000204c       0x18
+ .note.netbsd.ident
+                0x0000204c       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x00002064       0x14
+ .note.netbsd.pax
+                0x00002064       0x14 /usr/lib/crti.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00002078      0x104
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00002078      0x104 libDECHanyu_pic.a(citrus_dechanyu.pico)
+
+.eh_frame       0x0000217c      0x3f4
+ *(.eh_frame)
+ .eh_frame      0x0000217c       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x000021b8        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x000021b8      0x3b4 libDECHanyu_pic.a(citrus_dechanyu.pico)
+ .eh_frame      0x0000256c        0x4 /usr/lib/crtendS.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00002570                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00003570                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x00003570        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x00003570        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x00003574        0x4 /usr/lib/crtendS.o
+                0x00003574                __CTOR_LIST_END__
+
+.dtors          0x00003578        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x00003578        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000357c        0x4 /usr/lib/crtendS.o
+
+.jcr            0x00003580        0x4
+ *(.jcr)
+ .jcr           0x00003580        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x00003580        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x00003584       0xb8
+ *(.dynamic)
+ .dynamic       0x00003584       0xb8 /usr/lib/crti.o
+                0x00003584                _DYNAMIC
+
+.got            0x0000363c       0x1c
+ *(.got)
+ .got           0x0000363c       0x1c /usr/lib/crti.o
+ *(.igot)
+                0x00003658                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x00003658       0x2c
+ *(.got.plt)
+ .got.plt       0x00003658       0x2c /usr/lib/crti.o
+                0x00003658                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00003684       0x9c
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00003684        0x0 /usr/lib/crti.o
+ .data          0x00003684        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x00003684       0x26 /usr/lib/crtbeginS.o
+                0x00003684                __dso_handle
+ *fill*         0x000036aa        0x2 
+ .data          0x000036ac        0x0 libDECHanyu_pic.a(citrus_dechanyu.pico)
+ .data.rel.local
+                0x000036ac       0x74 libDECHanyu_pic.a(citrus_dechanyu.pico)
+                0x000036ac                _citrus_DECHanyu_ctype_ops
+                0x000036f8                _citrus_DECHanyu_stdenc_ops
+ .data          0x00003720        0x0 /usr/lib/crtendS.o
+ .data          0x00003720        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x00003720                _edata = .
+                0x00003720                PROVIDE (edata, .)
+                0x00003720                . = .
+                0x00003720                __bss_start = .
+
+.bss            0x00003720        0x0
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00003720        0x0 /usr/lib/crti.o
+ .bss           0x00003720        0x0 /usr/lib/crtbeginS.o
+ .bss           0x00003720        0x0 libDECHanyu_pic.a(citrus_dechanyu.pico)
+ .bss           0x00003720        0x0 /usr/lib/crtendS.o
+ .bss           0x00003720        0x0 /usr/lib/crtn.o
+ *(COMMON)
+                0x00003720                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00003720                . = ALIGN (0x4)
+                0x00003720                . = ALIGN (0x4)
+                0x00003720                _end = .
+                0x00003720                PROVIDE (end, .)
+                0x00003720                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libDECHanyu_pic.a(citrus_dechanyu.pico)
+                                 0x30 (size before relaxing)
+
+.ident          0x00000000      0x11f
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x41 libDECHanyu_pic.a(citrus_dechanyu.pico)
+ .ident         0x000000b1       0x38 /usr/lib/crtendS.o
+ .ident         0x000000e9       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libDECHanyu.so.5.0 elf32-i386-minix)

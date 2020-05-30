@@ -1,0 +1,637 @@
+Archive member included because of file (symbol)
+
+libedit_pic.a(readline.pico)  (--whole-archive)
+libedit_pic.a(historyn.pico)  (--whole-archive)
+libedit_pic.a(tokenizern.pico)
+                              (--whole-archive)
+libedit_pic.a(history.pico)   (--whole-archive)
+libedit_pic.a(editline.pico)  (--whole-archive)
+libedit_pic.a(tokenizer.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+emacs_ctlx_keymap   0x800             libedit_pic.a(readline.pico)
+emacs_meta_keymap   0x800             libedit_pic.a(readline.pico)
+emacs_standard_keymap
+                    0x800             libedit_pic.a(readline.pico)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libedit_pic.a(readline.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libedit_pic.a(historyn.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libedit_pic.a(tokenizern.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libedit_pic.a(history.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libedit_pic.a(editline.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libedit_pic.a(tokenizer.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libedit_pic.a
+LOAD /usr/src/lib/libterminfo/libterminfo.so
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4      0x8c4
+ *(.hash)
+ .hash          0x000000f4      0x8c4 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x000009b8     0x1280
+ *(.dynsym)
+ .dynsym        0x000009b8     0x1280 /usr/lib/crti.o
+
+.dynstr         0x00001c38      0xedd
+ *(.dynstr)
+ .dynstr        0x00001c38      0xedd /usr/lib/crti.o
+
+.gnu.version    0x00002b16        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x00002b18        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x00002b18        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x00002b18     0x1218
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x00002b18     0x1078 /usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x00003b90       0x18 /usr/lib/crti.o
+ .rel.data.rel.local
+                0x00003ba8       0x20 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00003bc8      0x168 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x00003d30      0x550
+ *(.rel.plt)
+ .rel.plt       0x00003d30      0x550 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x00004280        0xa
+ *(SORT(.init))
+ .init          0x00004280        0x3 /usr/lib/crti.o
+                0x00004280                _init
+ .init          0x00004283        0x5 /usr/lib/crtbeginS.o
+ .init          0x00004288        0x2 /usr/lib/crtn.o
+
+.plt            0x00004290      0xab0
+ *(.plt)
+ .plt           0x00004290      0xab0 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x00004d40    0x1b028
+                0x00004d40                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x00004d40        0x0 /usr/lib/crti.o
+ .text          0x00004d40       0xef /usr/lib/crtbeginS.o
+ *fill*         0x00004e2f        0x1 
+ .text          0x00004e30     0x4475 libedit_pic.a(readline.pico)
+                0x00004e30                rl_prep_terminal
+                0x00004e70                rl_deprep_terminal
+                0x00004eb0                rl_set_prompt
+                0x00004f60                rl_initialize
+                0x00005750                readline
+                0x000059b0                using_history
+                0x000059e0                get_history_event
+                0x00005d90                history_get
+                0x00005e80                history_search
+                0x00005f50                history_search_prefix
+                0x00005fa0                history_expand
+                0x00007050                add_history
+                0x000070f0                history_arg_extract
+                0x000072b0                history_tokenize
+                0x00007510                stifle_history
+                0x00007580                unstifle_history
+                0x000075d0                history_is_stifled
+                0x00007600                history_truncate_file
+                0x00007b40                read_history
+                0x00007bd0                write_history
+                0x00007c60                remove_history
+                0x00007d30                replace_history_entry
+                0x00007e90                clear_history
+                0x00007ef0                where_history
+                0x00007fa0                current_history
+                0x00008000                history_total_bytes
+                0x000080e0                history_set_pos
+                0x000081a0                previous_history
+                0x00008200                next_history
+                0x00008260                history_search_pos
+                0x00008400                tilde_expand
+                0x00008420                filename_completion_function
+                0x00008440                username_completion_function
+                0x00008500                rl_display_match_list
+                0x00008540                rl_complete
+                0x000086d0                rl_bind_key
+                0x00008730                rl_insert
+                0x000087b0                rl_read_key
+                0x00008800                rl_reset_terminal
+                0x00008840                rl_insert_text
+                0x000088b0                rl_newline
+                0x00008910                rl_add_defun
+                0x00008a50                rl_callback_read_char
+                0x00008b60                rl_callback_handler_install
+                0x00008bd0                rl_callback_handler_remove
+                0x00008c20                rl_redisplay
+                0x00008c60                rl_get_previous_history
+                0x00008cb0                rl_read_init_file
+                0x00008ce0                rl_parse_and_bind
+                0x00008d60                rl_variable_bind
+                0x00008dc0                rl_stuff_char
+                0x00008e00                rl_get_screen_size
+                0x00008e90                rl_set_screen_size
+                0x00008f50                rl_completion_matches
+                0x00009120                rl_filename_completion_function
+                0x00009140                rl_forced_update_display
+                0x00009170                _rl_abort_internal
+                0x000091b0                _rl_qsort_string_compare
+                0x000091e0                history_get_history_state
+                0x00009220                rl_kill_text
+                0x00009230                rl_make_bare_keymap
+                0x00009240                rl_get_keymap
+                0x00009250                rl_set_keymap
+                0x00009260                rl_generic_bind
+                0x00009270                rl_bind_key_in_map
+                0x00009280                rl_cleanup_after_signal
+                0x00009290                rl_on_new_line
+                0x000092a0                rl_free_line_state
+ *fill*         0x000092a5        0xb 
+ .text          0x000092b0     0x1341 libedit_pic.a(historyn.pico)
+                0x000092b0                history_init
+                0x00009980                history_end
+                0x000099d0                history
+ *fill*         0x0000a5f1        0xf 
+ .text          0x0000a600      0x602 libedit_pic.a(tokenizern.pico)
+                0x0000a600                tok_init
+                0x0000a6e0                tok_reset
+                0x0000a710                tok_end
+                0x0000a760                tok_line
+                0x0000ab90                tok_str
+ *fill*         0x0000ac02        0xe 
+ .text          0x0000ac10     0x1381 libedit_pic.a(history.pico)
+                0x0000ac10                history_winit
+                0x0000b2f0                history_wend
+                0x0000b340                history_w
+ *fill*         0x0000bf91        0xf 
+ .text          0x0000bfa0    0x13767 libedit_pic.a(editline.pico)
+                0x0000bfa0                el_winsertstr
+                0x0000c330                el_deletestr
+                0x0000c4b0                el_cursor
+                0x0000c4f0                el_init
+                0x0000c580                el_init_fd
+                0x0000d2b0                __ct_decode_string
+                0x0000d360                el_end
+                0x0000d750                el_reset
+                0x0000d830                el_wset
+                0x00011c90                el_wget
+                0x00012040                el_wline
+                0x00012050                el_source
+                0x00012220                el_resize
+                0x00012570                el_beep
+                0x00012610                fn_tilde_expand
+                0x000127b0                fn_filename_completion_function
+                0x00012ab0                completion_matches
+                0x00012c50                fn_display_match_list
+                0x00012db0                fn_complete
+                0x00013210                __ct_encode_string
+                0x000132f0                _el_fn_complete
+                0x00013370                el_wparse
+                0x000135e0                el_wpush
+                0x000136d0                el_wgetc
+                0x00013830                el_wgets
+                0x000142f0                el_getc
+                0x00014350                el_push
+                0x00014390                el_gets
+                0x00014460                el_parse
+                0x00014620                el_set
+                0x00014cd0                el_get
+                0x00014ed0                el_line
+                0x00014ff0                el_insertstr
+ *fill*         0x0001f707        0x9 
+ .text          0x0001f710      0x658 libedit_pic.a(tokenizer.pico)
+                0x0001f710                tok_winit
+                0x0001f7f0                tok_wreset
+                0x0001f820                tok_wend
+                0x0001f870                tok_wline
+                0x0001fcf0                tok_wstr
+ .text          0x0001fd68        0x0 /usr/lib/crtendS.o
+ .text          0x0001fd68        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x0001fd70        0xa
+ *(SORT(.fini))
+ .fini          0x0001fd70        0x3 /usr/lib/crti.o
+                0x0001fd70                _fini
+ .fini          0x0001fd73        0x5 /usr/lib/crtbeginS.o
+ .fini          0x0001fd78        0x2 /usr/lib/crtn.o
+                0x0001fd7a                PROVIDE (__etext, .)
+                0x0001fd7a                PROVIDE (_etext, .)
+                0x0001fd7a                PROVIDE (etext, .)
+
+.rodata         0x0001fd80     0x7380
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0001fd80       0x54 libedit_pic.a(readline.pico)
+ .rodata.str1.1
+                0x0001fdd4      0x1ae libedit_pic.a(readline.pico)
+                                0x1af (size before relaxing)
+ *fill*         0x0001ff82        0x2 
+ .rodata        0x0001ff84       0x7a libedit_pic.a(historyn.pico)
+ .rodata.str1.1
+                0x0001fffe      0x14b libedit_pic.a(historyn.pico)
+                                0x163 (size before relaxing)
+ *fill*         0x00020149        0x3 
+ .rodata        0x0002014c       0x78 libedit_pic.a(tokenizern.pico)
+ .rodata.str1.1
+                0x000201c4        0x4 libedit_pic.a(tokenizern.pico)
+                                  0x5 (size before relaxing)
+ .rodata        0x000201c8       0x7a libedit_pic.a(history.pico)
+ .rodata.str1.1
+                0x00000000        0x8 libedit_pic.a(history.pico)
+ *fill*         0x00020242        0x2 
+ .rodata.str4.4
+                0x00020244      0x52c libedit_pic.a(history.pico)
+                                0x56c (size before relaxing)
+ .rodata        0x00020770      0x7f4 libedit_pic.a(editline.pico)
+ .rodata.str1.1
+                0x00020f64      0xb1e libedit_pic.a(editline.pico)
+                                0xb75 (size before relaxing)
+ *fill*         0x00021a82        0x2 
+ .rodata.str4.4
+                0x00021a84     0x55f4 libedit_pic.a(editline.pico)
+                               0x56a4 (size before relaxing)
+ .rodata        0x00027078       0x78 libedit_pic.a(tokenizer.pico)
+ .rodata.str4.4
+                0x000270f0       0x10 libedit_pic.a(tokenizer.pico)
+                                 0x14 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00027100      0x9f4
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00027100      0x9f4 libedit_pic.a(readline.pico)
+
+.eh_frame       0x00027af4     0x2678
+ *(.eh_frame)
+ .eh_frame      0x00027af4       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x00027b30        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x00027b30      0x91c libedit_pic.a(readline.pico)
+ .eh_frame      0x0002844c      0x1ac libedit_pic.a(historyn.pico)
+                                0x1c4 (size before relaxing)
+ .eh_frame      0x000285f8       0x9c libedit_pic.a(tokenizern.pico)
+                                 0xb4 (size before relaxing)
+ .eh_frame      0x00028694      0x1ac libedit_pic.a(history.pico)
+                                0x1c4 (size before relaxing)
+ .eh_frame      0x00028840     0x188c libedit_pic.a(editline.pico)
+                               0x18a4 (size before relaxing)
+ .eh_frame      0x0002a0cc       0x9c libedit_pic.a(tokenizer.pico)
+                                 0xb4 (size before relaxing)
+ .eh_frame      0x0002a168        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x0002a16c       0x18
+ .note.netbsd.ident
+                0x0002a16c       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x0002a184       0x14
+ .note.netbsd.pax
+                0x0002a184       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0002a198                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0002b000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0002b000        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x0002b000        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0002b004        0x4 /usr/lib/crtendS.o
+                0x0002b004                __CTOR_LIST_END__
+
+.dtors          0x0002b008        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x0002b008        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0002b00c        0x4 /usr/lib/crtendS.o
+
+.jcr            0x0002b010        0x4
+ *(.jcr)
+ .jcr           0x0002b010        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x0002b010        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro    0x0002b014      0xc80
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0002b014       0x40 libedit_pic.a(historyn.pico)
+ .data.rel.ro.local
+                0x0002b054       0x40 libedit_pic.a(history.pico)
+ .data.rel.ro.local
+                0x0002b094      0xc00 libedit_pic.a(editline.pico)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0002bc94       0xb8
+ *(.dynamic)
+ .dynamic       0x0002bc94       0xb8 /usr/lib/crti.o
+                0x0002bc94                _DYNAMIC
+
+.got            0x0002bd4c       0xb4
+ *(.got)
+ .got           0x0002bd4c       0xb4 /usr/lib/crti.o
+ *(.igot)
+                0x0002be00                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x0002be00      0x2b4
+ *(.got.plt)
+ .got.plt       0x0002be00      0x2b4 /usr/lib/crti.o
+                0x0002be00                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0002c0b4       0x98
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0002c0b4        0x0 /usr/lib/crti.o
+ .data          0x0002c0b4        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x0002c0b4       0x26 /usr/lib/crtbeginS.o
+                0x0002c0b4                __dso_handle
+ *fill*         0x0002c0da        0x2 
+ .data          0x0002c0dc       0x38 libedit_pic.a(readline.pico)
+                0x0002c0dc                rl_readline_version
+                0x0002c0e0                rl_catch_signals
+                0x0002c0e4                rl_catch_sigwinch
+                0x0002c0e8                history_base
+                0x0002c0ec                history_expansion_char
+                0x0002c0ed                history_subst_char
+                0x0002c108                readline_echoing_p
+                0x0002c10c                rl_completion_query_items
+                0x0002c110                rl_completion_append_character
+ .data.rel.local
+                0x0002c114       0x10 libedit_pic.a(readline.pico)
+                0x0002c114                rl_library_version
+                0x0002c118                rl_readline_name
+                0x0002c11c                history_no_expand_chars
+                0x0002c120                rl_basic_word_break_characters
+ .data.rel      0x0002c124        0x8 libedit_pic.a(readline.pico)
+                0x0002c124                rl_prep_term_function
+                0x0002c128                rl_deprep_term_function
+ .data          0x0002c12c        0x0 libedit_pic.a(historyn.pico)
+ .data          0x0002c12c        0x0 libedit_pic.a(tokenizern.pico)
+ .data          0x0002c12c        0x0 libedit_pic.a(history.pico)
+ .data          0x0002c12c       0x20 libedit_pic.a(editline.pico)
+ .data          0x0002c14c        0x0 libedit_pic.a(tokenizer.pico)
+ .data          0x0002c14c        0x0 /usr/lib/crtendS.o
+ .data          0x0002c14c        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x0002c14c                _edata = .
+                0x0002c14c                PROVIDE (edata, .)
+                0x0002c14c                . = .
+                0x0002c14c                __bss_start = .
+
+.bss            0x0002c14c     0x1d70
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0002c14c        0x0 /usr/lib/crti.o
+ .bss           0x0002c14c        0x0 /usr/lib/crtbeginS.o
+ .bss           0x0002c14c      0x50c libedit_pic.a(readline.pico)
+                0x0002c14c                rl_instream
+                0x0002c150                rl_outstream
+                0x0002c154                rl_point
+                0x0002c158                rl_end
+                0x0002c15c                rl_line_buffer
+                0x0002c160                rl_linefunc
+                0x0002c164                rl_done
+                0x0002c168                rl_event_hook
+                0x0002c16c                history_length
+                0x0002c170                max_input_history
+                0x0002c174                history_inhibit_expansion_function
+                0x0002c178                rl_inhibit_completion
+                0x0002c17c                rl_attempted_completion_over
+                0x0002c180                rl_completer_word_break_characters
+                0x0002c184                rl_completer_quote_characters
+                0x0002c188                rl_completion_entry_function
+                0x0002c18c                rl_completion_word_break_hook
+                0x0002c190                rl_attempted_completion_function
+                0x0002c194                rl_pre_input_hook
+                0x0002c198                rl_startup1_hook
+                0x0002c19c                rl_getc_function
+                0x0002c1a0                rl_terminal_name
+                0x0002c1a4                rl_already_prompted
+                0x0002c1a8                rl_filename_completion_desired
+                0x0002c1ac                rl_ignore_completion_duplicates
+                0x0002c1b0                _rl_print_completions_horizontally
+                0x0002c1b4                rl_redisplay_function
+                0x0002c1b8                rl_startup_hook
+                0x0002c1bc                rl_completion_display_matches_hook
+                0x0002c1c0                rl_prompt
+                0x0002c1c4                rl_completion_type
+                0x0002c1c8                rl_special_prefixes
+ .bss           0x0002c658        0x0 libedit_pic.a(historyn.pico)
+ .bss           0x0002c658        0x0 libedit_pic.a(tokenizern.pico)
+ .bss           0x0002c658       0x20 libedit_pic.a(history.pico)
+ .bss           0x0002c678       0x44 libedit_pic.a(editline.pico)
+ .bss           0x0002c6bc        0x0 libedit_pic.a(tokenizer.pico)
+ .bss           0x0002c6bc        0x0 /usr/lib/crtendS.o
+ .bss           0x0002c6bc        0x0 /usr/lib/crtn.o
+ *(COMMON)
+ COMMON         0x0002c6bc     0x1800 libedit_pic.a(readline.pico)
+                0x0002c6bc                emacs_ctlx_keymap
+                0x0002cebc                emacs_meta_keymap
+                0x0002d6bc                emacs_standard_keymap
+                0x0002debc                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0002debc                . = ALIGN (0x4)
+                0x0002debc                . = ALIGN (0x4)
+                0x0002debc                _end = .
+                0x0002debc                PROVIDE (end, .)
+                0x0002debc                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libedit_pic.a(readline.pico)
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 libedit_pic.a(historyn.pico)
+ .comment       0x00000000       0x30 libedit_pic.a(tokenizern.pico)
+ .comment       0x00000000       0x30 libedit_pic.a(history.pico)
+ .comment       0x00000000       0x30 libedit_pic.a(editline.pico)
+ .comment       0x00000000       0x30 libedit_pic.a(tokenizer.pico)
+
+.ident          0x00000000      0x215
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x3f libedit_pic.a(readline.pico)
+ .ident         0x000000af       0x3d libedit_pic.a(historyn.pico)
+ .ident         0x000000ec       0x3f libedit_pic.a(tokenizern.pico)
+ .ident         0x0000012b       0x3d libedit_pic.a(history.pico)
+ .ident         0x00000168       0x3f libedit_pic.a(tokenizer.pico)
+ .ident         0x000001a7       0x38 /usr/lib/crtendS.o
+ .ident         0x000001df       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libedit.so.3.1 elf32-i386-minix)

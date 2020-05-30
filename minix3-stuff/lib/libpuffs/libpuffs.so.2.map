@@ -1,0 +1,736 @@
+Archive member included because of file (symbol)
+
+libpuffs_pic.a(creds.pico)    (--whole-archive)
+libpuffs_pic.a(subr.pico)     (--whole-archive)
+libpuffs_pic.a(callcontext.pico)
+                              (--whole-archive)
+libpuffs_pic.a(puffs.pico)    (--whole-archive)
+libpuffs_pic.a(main.pico)     (--whole-archive)
+libpuffs_pic.a(table.pico)    (--whole-archive)
+libpuffs_pic.a(time.pico)     (--whole-archive)
+libpuffs_pic.a(stadir.pico)   (--whole-archive)
+libpuffs_pic.a(read.pico)     (--whole-archive)
+libpuffs_pic.a(protect.pico)  (--whole-archive)
+libpuffs_pic.a(open.pico)     (--whole-archive)
+libpuffs_pic.a(mount.pico)    (--whole-archive)
+libpuffs_pic.a(misc.pico)     (--whole-archive)
+libpuffs_pic.a(link.pico)     (--whole-archive)
+libpuffs_pic.a(inode.pico)    (--whole-archive)
+libpuffs_pic.a(path.pico)     (--whole-archive)
+libpuffs_pic.a(pnode.pico)    (--whole-archive)
+libpuffs_pic.a(paths.pico)    (--whole-archive)
+libpuffs_pic.a(utility.pico)  (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+global_kcred        0x54              libpuffs_pic.a(table.pico)
+mounted             0x4               libpuffs_pic.a(table.pico)
+buildpath           0x4               libpuffs_pic.a(table.pico)
+fs_name             0x401             libpuffs_pic.a(table.pico)
+global_pu           0x4               libpuffs_pic.a(table.pico)
+err_code            0x4               libpuffs_pic.a(table.pico)
+exitsignaled        0x4               libpuffs_pic.a(table.pico)
+puffs_fakecc        0x4               libpuffs_pic.a(callcontext.pico)
+is_readonly_fs      0x4               libpuffs_pic.a(table.pico)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libpuffs_pic.a(creds.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpuffs_pic.a(subr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpuffs_pic.a(callcontext.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpuffs_pic.a(puffs.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpuffs_pic.a(main.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpuffs_pic.a(table.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpuffs_pic.a(time.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpuffs_pic.a(stadir.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpuffs_pic.a(read.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpuffs_pic.a(protect.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpuffs_pic.a(open.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpuffs_pic.a(mount.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpuffs_pic.a(misc.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpuffs_pic.a(link.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpuffs_pic.a(inode.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpuffs_pic.a(path.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpuffs_pic.a(pnode.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpuffs_pic.a(paths.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libpuffs_pic.a(utility.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libpuffs_pic.a
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4      0x504
+ *(.hash)
+ .hash          0x000000f4      0x504 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x000005f8      0xbc0
+ *(.dynsym)
+ .dynsym        0x000005f8      0xbc0 /usr/lib/crti.o
+
+.dynstr         0x000011b8      0xa68
+ *(.dynstr)
+ .dynstr        0x000011b8      0xa68 /usr/lib/crti.o
+
+.gnu.version    0x00001c20        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x00001c20        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x00001c20        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x00001c20      0x220
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x00001c20       0xa0 /usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x00001cc0       0xc8 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00001d88       0xb8 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x00001e40      0x1e8
+ *(.rel.plt)
+ .rel.plt       0x00001e40      0x1e8 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x00002030        0xa
+ *(SORT(.init))
+ .init          0x00002030        0x3 /usr/lib/crti.o
+                0x00002030                _init
+ .init          0x00002033        0x5 /usr/lib/crtbeginS.o
+ .init          0x00002038        0x2 /usr/lib/crtn.o
+
+.plt            0x00002040      0x3e0
+ *(.plt)
+ .plt           0x00002040      0x3e0 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x00002420     0x6140
+                0x00002420                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x00002420        0x0 /usr/lib/crti.o
+ .text          0x00002420       0xef /usr/lib/crtbeginS.o
+ *fill*         0x0000250f        0x1 
+ .text          0x00002510      0x52e libpuffs_pic.a(creds.pico)
+                0x00002510                puffs_cred_getuid
+                0x00002550                puffs_cred_getgid
+                0x00002590                puffs_cred_getgroups
+                0x00002600                puffs_cred_isuid
+                0x00002630                puffs_cred_hasgroup
+                0x00002690                puffs_cred_isregular
+                0x000026b0                puffs_cred_iskernel
+                0x000026e0                puffs_cred_isfs
+                0x00002710                puffs_cred_isjuggernaut
+                0x00002760                puffs_access
+                0x00002810                puffs_access_chown
+                0x000028b0                puffs_access_chmod
+                0x00002960                puffs_access_times
+ *fill*         0x00002a3e        0x2 
+ .text          0x00002a40      0x855 libpuffs_pic.a(subr.pico)
+                0x00002a40                puffs_gendotdent
+                0x00002b00                puffs_nextdent
+                0x00002bb0                puffs_fsnop_unmount
+                0x00002bc0                puffs_fsnop_sync
+                0x00002bd0                puffs_fsnop_statvfs
+                0x00002c70                puffs_genfs_node_getattr
+                0x00002cc0                puffs_genfs_node_reclaim
+                0x00002d00                puffs_zerostatvfs
+                0x00002da0                puffs_setvattr
+                0x00002ef0                puffs_vattr_null
+                0x00002ff0                puffs_vtype2dt
+                0x00003020                puffs_mode2vt
+                0x000030c0                puffs_stat2vattr
+                0x00003240                puffs_addvtype2mode
+ *fill*         0x00003295        0xb 
+ .text          0x000032a0      0x9a8 libpuffs_pic.a(callcontext.pico)
+                0x000032a0                puffs_cc_yield
+                0x00003430                puffs__cc_destroy
+                0x00003530                puffs__cc_create
+                0x00003680                puffs__cc_cont
+                0x00003790                puffs_cc_getcc
+                0x000037d0                puffs_cc_continue
+                0x00003820                puffs__goto
+                0x00003860                puffs_cc_schedule
+                0x000038e0                puffs_cc_getcaller
+                0x00003a20                puffs__cc_setcaller
+                0x00003a50                puffs__cc_exit
+                0x00003b00                puffs__cc_savemain
+                0x00003b40                puffs__cc_restoremain
+ *fill*         0x00003c48        0x8 
+ .text          0x00003c50      0xc2c libpuffs_pic.a(puffs.pico)
+                0x00003c50                puffs_kernerr_abort
+                0x00003ca0                puffs_kernerr_log
+                0x00003cf0                puffs_getstate
+                0x00003d00                puffs_setstacksize
+                0x00003dc0                puffs_getrootpathobj
+                0x00003e00                puffs_setroot
+                0x00003e20                puffs_getroot
+                0x00003e30                puffs_setrootinfo
+                0x00003eb0                puffs_getspecific
+                0x00003ec0                puffs_setspecific
+                0x00003ee0                puffs_setmntinfo
+                0x00003f40                puffs_getmaxreqlen
+                0x00003f50                puffs_setmaxreqlen
+                0x00003fa0                puffs_setfhsize
+                0x00004000                puffs_setncookiehash
+                0x00004050                puffs_set_pathbuild
+                0x00004070                puffs_set_pathtransform
+                0x00004090                puffs_set_pathcmp
+                0x000040b0                puffs_set_pathfree
+                0x000040d0                puffs_set_namemod
+                0x000040f0                puffs_set_errnotify
+                0x00004110                puffs_set_cmap
+                0x00004130                puffs_ml_setloopfn
+                0x00004150                puffs_ml_settimeout
+                0x00004190                puffs_set_prepost
+                0x000041b0                puffs_mount
+                0x00004220                puffs_init
+                0x000045f0                puffs_cancel
+                0x00004650                puffs_exit
+                0x000046f0                puffs__theloop
+                0x000047a0                puffs_mainloop
+ *fill*         0x0000487c        0x4 
+ .text          0x00004880      0x31f libpuffs_pic.a(main.pico)
+                0x00004880                __wrap_main
+                0x00004a40                lpuffs_pump
+                0x00004b10                lpuffs_init
+ *fill*         0x00004b9f        0x1 
+ .text          0x00004ba0        0x0 libpuffs_pic.a(table.pico)
+ .text          0x00004ba0       0xe8 libpuffs_pic.a(time.pico)
+                0x00004ba0                fs_utime
+ *fill*         0x00004c88        0x8 
+ .text          0x00004c90      0x21f libpuffs_pic.a(stadir.pico)
+                0x00004c90                fs_stat
+                0x00004e60                fs_statvfs
+ *fill*         0x00004eaf        0x1 
+ .text          0x00004eb0      0x4ea libpuffs_pic.a(read.pico)
+                0x00004eb0                fs_read
+                0x00004ff0                fs_write
+                0x00005200                fs_getdents
+ *fill*         0x0000539a        0x6 
+ .text          0x000053a0      0x1aa libpuffs_pic.a(protect.pico)
+                0x000053a0                fs_chmod
+                0x00005480                fs_chown
+ *fill*         0x0000554a        0x6 
+ .text          0x00005550      0xce0 libpuffs_pic.a(open.pico)
+                0x00005550                fs_create
+                0x000058c0                fs_mknod
+                0x00005bf0                fs_mkdir
+                0x00005f10                fs_slink
+ .text          0x00006230      0x188 libpuffs_pic.a(mount.pico)
+                0x00006230                fs_mount
+                0x000062c0                fs_mountpt
+                0x00006350                fs_unmount
+ *fill*         0x000063b8        0x8 
+ .text          0x000063c0       0x56 libpuffs_pic.a(misc.pico)
+                0x000063c0                fs_sync
+ *fill*         0x00006416        0xa 
+ .text          0x00006420      0xddc libpuffs_pic.a(link.pico)
+                0x00006420                fs_trunc
+                0x000065d0                fs_link
+                0x00006830                fs_rdlink
+                0x00006940                fs_rename
+                0x00006e10                fs_unlink
+ *fill*         0x000071fc        0x4 
+ .text          0x00007200      0x2d3 libpuffs_pic.a(inode.pico)
+                0x00007200                release_node
+                0x00007290                fs_putnode
+ *fill*         0x000074d3        0xd 
+ .text          0x000074e0      0x374 libpuffs_pic.a(path.pico)
+                0x000074e0                fs_lookup
+                0x000075d0                advance
+ *fill*         0x00007854        0xc 
+ .text          0x00007860      0x360 libpuffs_pic.a(pnode.pico)
+                0x00007860                puffs_pn_new
+                0x000078f0                puffs_pn_remove
+                0x000079a0                puffs_pn_put
+                0x00007a10                puffs_pn_nodewalk
+                0x00007a60                puffs_pn_getvap
+                0x00007a70                puffs_pn_getpriv
+                0x00007a80                puffs_pn_setpriv
+                0x00007aa0                puffs_pn_getpo
+                0x00007ab0                puffs_pn_getmnt
+                0x00007ac0                puffs_pn_getmntspecific
+                0x00007ae0                puffs_newinfo_setcookie
+                0x00007af0                puffs_newinfo_setvtype
+                0x00007b00                puffs_newinfo_setsize
+                0x00007b20                puffs_newinfo_setrdev
+                0x00007b40                puffs_newinfo_setva
+                0x00007b80                puffs_newinfo_setvattl
+                0x00007ba0                puffs_newinfo_setcnttl
+ .text          0x00007bc0      0x7e4 libpuffs_pic.a(paths.pico)
+                0x00007bc0                puffs_path_pcnbuild
+                0x00007e30                puffs_path_buildhash
+                0x00007ed0                puffs_path_prefixadj
+                0x00008090                puffs_path_walkcmp
+                0x00008120                puffs_stdpath_buildpath
+                0x00008310                puffs_stdpath_cmppath
+                0x00008380                puffs_stdpath_freepath
+ *fill*         0x000083a4        0xc 
+ .text          0x000083b0      0x1af libpuffs_pic.a(utility.pico)
+                0x000083b0                find_inode_cb
+                0x000083d0                update_timens
+                0x00008500                lpuffs_debug
+ *fill*         0x0000855f        0x1 
+ .text          0x00008560        0x0 /usr/lib/crtendS.o
+ .text          0x00008560        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x00008560        0xa
+ *(SORT(.fini))
+ .fini          0x00008560        0x3 /usr/lib/crti.o
+                0x00008560                _fini
+ .fini          0x00008563        0x5 /usr/lib/crtbeginS.o
+ .fini          0x00008568        0x2 /usr/lib/crtn.o
+                0x0000856a                PROVIDE (__etext, .)
+                0x0000856a                PROVIDE (_etext, .)
+                0x0000856a                PROVIDE (etext, .)
+
+.rodata         0x0000856c      0x989
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000856c       0x40 libpuffs_pic.a(subr.pico)
+ .rodata.str1.1
+                0x000085ac       0x36 libpuffs_pic.a(subr.pico)
+                                 0x38 (size before relaxing)
+ .rodata.str1.1
+                0x000085e2       0xc5 libpuffs_pic.a(callcontext.pico)
+ .rodata.str1.1
+                0x000086a7      0x236 libpuffs_pic.a(puffs.pico)
+                                0x241 (size before relaxing)
+ .rodata.str1.1
+                0x000088dd       0xe6 libpuffs_pic.a(main.pico)
+ .rodata.str1.1
+                0x000089c3       0x48 libpuffs_pic.a(stadir.pico)
+ .rodata.str1.1
+                0x00008a0b       0x9c libpuffs_pic.a(read.pico)
+                                 0xac (size before relaxing)
+ .rodata.str1.1
+                0x00008aa7       0xa9 libpuffs_pic.a(open.pico)
+ .rodata.str1.1
+                0x00008b50       0x3c libpuffs_pic.a(mount.pico)
+ .rodata.str1.1
+                0x00008b8c       0x17 libpuffs_pic.a(misc.pico)
+ .rodata.str1.1
+                0x00008ba3       0xa7 libpuffs_pic.a(link.pico)
+                                 0xc3 (size before relaxing)
+ .rodata.str1.1
+                0x00008c4a      0x13d libpuffs_pic.a(inode.pico)
+ .rodata.str1.1
+                0x00008d87       0x74 libpuffs_pic.a(path.pico)
+                                 0x87 (size before relaxing)
+ .rodata.str1.1
+                0x00008dfb       0x23 libpuffs_pic.a(pnode.pico)
+ .rodata.str1.1
+                0x00008e1e       0xd0 libpuffs_pic.a(paths.pico)
+                                 0xd3 (size before relaxing)
+ .rodata.str1.1
+                0x00008eee        0x7 libpuffs_pic.a(utility.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00008ef8      0x41c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00008ef8      0x41c libpuffs_pic.a(creds.pico)
+
+.eh_frame       0x00009314      0xf84
+ *(.eh_frame)
+ .eh_frame      0x00009314       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x00009350        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x00009350      0x19c libpuffs_pic.a(creds.pico)
+ .eh_frame      0x000094ec      0x1a0 libpuffs_pic.a(subr.pico)
+                                0x1b8 (size before relaxing)
+ .eh_frame      0x0000968c      0x1a8 libpuffs_pic.a(callcontext.pico)
+                                0x1c0 (size before relaxing)
+ .eh_frame      0x00009834      0x398 libpuffs_pic.a(puffs.pico)
+                                0x3b0 (size before relaxing)
+ .eh_frame      0x00009bcc       0x90 libpuffs_pic.a(main.pico)
+                                 0xa8 (size before relaxing)
+ .eh_frame      0x00009c5c       0x20 libpuffs_pic.a(time.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00009c7c       0x40 libpuffs_pic.a(stadir.pico)
+                                 0x58 (size before relaxing)
+ .eh_frame      0x00009cbc       0x60 libpuffs_pic.a(read.pico)
+                                 0x78 (size before relaxing)
+ .eh_frame      0x00009d1c       0x40 libpuffs_pic.a(protect.pico)
+                                 0x58 (size before relaxing)
+ .eh_frame      0x00009d5c       0x80 libpuffs_pic.a(open.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x00009ddc       0x5c libpuffs_pic.a(mount.pico)
+                                 0x74 (size before relaxing)
+ .eh_frame      0x00009e38       0x1c libpuffs_pic.a(misc.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x00009e54       0xa0 libpuffs_pic.a(link.pico)
+                                 0xb8 (size before relaxing)
+ .eh_frame      0x00009ef4       0x3c libpuffs_pic.a(inode.pico)
+                                 0x54 (size before relaxing)
+ .eh_frame      0x00009f30       0x40 libpuffs_pic.a(path.pico)
+                                 0x58 (size before relaxing)
+ .eh_frame      0x00009f70      0x1ec libpuffs_pic.a(pnode.pico)
+                                0x204 (size before relaxing)
+ .eh_frame      0x0000a15c       0xdc libpuffs_pic.a(paths.pico)
+                                 0xf4 (size before relaxing)
+ .eh_frame      0x0000a238       0x5c libpuffs_pic.a(utility.pico)
+                                 0x74 (size before relaxing)
+ .eh_frame      0x0000a294        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x0000a298       0x18
+ .note.netbsd.ident
+                0x0000a298       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x0000a2b0       0x14
+ .note.netbsd.pax
+                0x0000a2b0       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000a2c4                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0000b000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0000b000        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x0000b000        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000b004        0x4 /usr/lib/crtendS.o
+                0x0000b004                __CTOR_LIST_END__
+
+.dtors          0x0000b008        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x0000b008        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000b00c        0x4 /usr/lib/crtendS.o
+
+.jcr            0x0000b010        0x4
+ *(.jcr)
+ .jcr           0x0000b010        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x0000b010        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro    0x0000b014      0x150
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000b014      0x150 libpuffs_pic.a(puffs.pico)
+                0x0000b014                puffsmopts
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000b164       0xb0
+ *(.dynamic)
+ .dynamic       0x0000b164       0xb0 /usr/lib/crti.o
+                0x0000b164                _DYNAMIC
+
+.got            0x0000b214       0x5c
+ *(.got)
+ .got           0x0000b214       0x5c /usr/lib/crti.o
+ *(.igot)
+                0x0000b270                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x0000b270      0x100
+ *(.got.plt)
+ .got.plt       0x0000b270      0x100 /usr/lib/crti.o
+                0x0000b270                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000b370       0xb0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000b370        0x0 /usr/lib/crti.o
+ .data          0x0000b370        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x0000b370       0x26 /usr/lib/crtbeginS.o
+                0x0000b370                __dso_handle
+ *fill*         0x0000b396        0x2 
+ .data          0x0000b398        0x0 libpuffs_pic.a(creds.pico)
+ .data          0x0000b398        0x0 libpuffs_pic.a(subr.pico)
+ .data          0x0000b398        0x0 libpuffs_pic.a(callcontext.pico)
+ .data          0x0000b398        0x0 libpuffs_pic.a(puffs.pico)
+ .data          0x0000b398        0x0 libpuffs_pic.a(main.pico)
+ .data          0x0000b398        0x0 libpuffs_pic.a(table.pico)
+ .data.rel      0x0000b398       0x88 libpuffs_pic.a(table.pico)
+                0x0000b398                puffs_table
+ .data          0x0000b420        0x0 libpuffs_pic.a(time.pico)
+ .data          0x0000b420        0x0 libpuffs_pic.a(stadir.pico)
+ .data          0x0000b420        0x0 libpuffs_pic.a(read.pico)
+ .data          0x0000b420        0x0 libpuffs_pic.a(protect.pico)
+ .data          0x0000b420        0x0 libpuffs_pic.a(open.pico)
+ .data          0x0000b420        0x0 libpuffs_pic.a(mount.pico)
+ .data          0x0000b420        0x0 libpuffs_pic.a(misc.pico)
+ .data          0x0000b420        0x0 libpuffs_pic.a(link.pico)
+ .data          0x0000b420        0x0 libpuffs_pic.a(inode.pico)
+ .data          0x0000b420        0x0 libpuffs_pic.a(path.pico)
+ .data          0x0000b420        0x0 libpuffs_pic.a(pnode.pico)
+ .data          0x0000b420        0x0 libpuffs_pic.a(paths.pico)
+ .data          0x0000b420        0x0 libpuffs_pic.a(utility.pico)
+ .data          0x0000b420        0x0 /usr/lib/crtendS.o
+ .data          0x0000b420        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x0000b420                _edata = .
+                0x0000b420                PROVIDE (edata, .)
+                0x0000b420                . = .
+                0x0000b420                __bss_start = .
+
+.bss            0x0000b420    0x21b5c
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000b420        0x0 /usr/lib/crti.o
+ .bss           0x0000b420        0x0 /usr/lib/crtbeginS.o
+ .bss           0x0000b420        0x0 libpuffs_pic.a(creds.pico)
+ .bss           0x0000b420        0x0 libpuffs_pic.a(subr.pico)
+ .bss           0x0000b420      0x644 libpuffs_pic.a(callcontext.pico)
+ .bss           0x0000ba64        0x0 libpuffs_pic.a(puffs.pico)
+ *fill*         0x0000ba64        0xc 
+ .bss           0x0000ba70       0x95 libpuffs_pic.a(main.pico)
+ *fill*         0x0000bb05        0x3 
+ .bss           0x0000bb08        0x0 libpuffs_pic.a(table.pico)
+ .bss           0x0000bb08        0x0 libpuffs_pic.a(time.pico)
+ .bss           0x0000bb08        0x0 libpuffs_pic.a(stadir.pico)
+ .bss           0x0000bb08    0x21000 libpuffs_pic.a(read.pico)
+ .bss           0x0002cb08        0x0 libpuffs_pic.a(protect.pico)
+ .bss           0x0002cb08        0x0 libpuffs_pic.a(open.pico)
+ .bss           0x0002cb08        0x0 libpuffs_pic.a(mount.pico)
+ .bss           0x0002cb08        0x0 libpuffs_pic.a(misc.pico)
+ .bss           0x0002cb08        0x0 libpuffs_pic.a(link.pico)
+ .bss           0x0002cb08        0x0 libpuffs_pic.a(inode.pico)
+ .bss           0x0002cb08        0x0 libpuffs_pic.a(path.pico)
+ .bss           0x0002cb08        0x0 libpuffs_pic.a(pnode.pico)
+ .bss           0x0002cb08        0x0 libpuffs_pic.a(paths.pico)
+ .bss           0x0002cb08        0x0 libpuffs_pic.a(utility.pico)
+ .bss           0x0002cb08        0x0 /usr/lib/crtendS.o
+ .bss           0x0002cb08        0x0 /usr/lib/crtn.o
+ *(COMMON)
+ COMMON         0x0002cb08        0x4 libpuffs_pic.a(callcontext.pico)
+                0x0002cb08                puffs_fakecc
+ COMMON         0x0002cb0c      0x470 libpuffs_pic.a(table.pico)
+                0x0002cb0c                global_kcred
+                0x0002cb60                mounted
+                0x0002cb64                buildpath
+                0x0002cb68                fs_name
+                0x0002cf6c                global_pu
+                0x0002cf70                err_code
+                0x0002cf74                exitsignaled
+                0x0002cf78                is_readonly_fs
+                0x0002cf7c                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0002cf7c                . = ALIGN (0x4)
+                0x0002cf7c                . = ALIGN (0x4)
+                0x0002cf7c                _end = .
+                0x0002cf7c                PROVIDE (end, .)
+                0x0002cf7c                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libpuffs_pic.a(creds.pico)
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 libpuffs_pic.a(subr.pico)
+ .comment       0x00000000       0x30 libpuffs_pic.a(callcontext.pico)
+ .comment       0x00000000       0x30 libpuffs_pic.a(puffs.pico)
+ .comment       0x00000000       0x30 libpuffs_pic.a(main.pico)
+ .comment       0x00000000       0x30 libpuffs_pic.a(table.pico)
+ .comment       0x00000000       0x30 libpuffs_pic.a(time.pico)
+ .comment       0x00000000       0x30 libpuffs_pic.a(stadir.pico)
+ .comment       0x00000000       0x30 libpuffs_pic.a(read.pico)
+ .comment       0x00000000       0x30 libpuffs_pic.a(protect.pico)
+ .comment       0x00000000       0x30 libpuffs_pic.a(open.pico)
+ .comment       0x00000000       0x30 libpuffs_pic.a(mount.pico)
+ .comment       0x00000000       0x30 libpuffs_pic.a(misc.pico)
+ .comment       0x00000000       0x30 libpuffs_pic.a(link.pico)
+ .comment       0x00000000       0x30 libpuffs_pic.a(inode.pico)
+ .comment       0x00000000       0x30 libpuffs_pic.a(path.pico)
+ .comment       0x00000000       0x30 libpuffs_pic.a(pnode.pico)
+ .comment       0x00000000       0x30 libpuffs_pic.a(paths.pico)
+ .comment       0x00000000       0x30 libpuffs_pic.a(utility.pico)
+
+.ident          0x00000000      0x235
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x38 libpuffs_pic.a(creds.pico)
+ .ident         0x000000a8       0x37 libpuffs_pic.a(subr.pico)
+ .ident         0x000000df       0x3e libpuffs_pic.a(callcontext.pico)
+ .ident         0x0000011d       0x3c libpuffs_pic.a(puffs.pico)
+ .ident         0x00000159       0x37 libpuffs_pic.a(pnode.pico)
+ .ident         0x00000190       0x37 libpuffs_pic.a(paths.pico)
+ .ident         0x000001c7       0x38 /usr/lib/crtendS.o
+ .ident         0x000001ff       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libpuffs.so.2.0 elf32-i386-minix)

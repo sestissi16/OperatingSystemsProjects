@@ -1,0 +1,371 @@
+Archive member included because of file (symbol)
+
+libMSKanji_pic.a(citrus_mskanji.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libMSKanji_pic.a(citrus_mskanji.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libMSKanji_pic.a
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4       0x98
+ *(.hash)
+ .hash          0x000000f4       0x98 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000018c      0x130
+ *(.dynsym)
+ .dynsym        0x0000018c      0x130 /usr/lib/crti.o
+
+.dynstr         0x000002bc      0x142
+ *(.dynstr)
+ .dynstr        0x000002bc      0x142 /usr/lib/crti.o
+
+.gnu.version    0x000003fe        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x00000400        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x00000400        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x00000400      0x118
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x00000400        0x8 /usr/lib/crti.o
+ .rel.data.rel.local
+                0x00000408       0xd8 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x000004e0       0x38 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x00000518       0x48
+ *(.rel.plt)
+ .rel.plt       0x00000518       0x48 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x00000560        0xa
+ *(SORT(.init))
+ .init          0x00000560        0x3 /usr/lib/crti.o
+                0x00000560                _init
+ .init          0x00000563        0x5 /usr/lib/crtbeginS.o
+ .init          0x00000568        0x2 /usr/lib/crtn.o
+
+.plt            0x00000570       0xa0
+ *(.plt)
+ .plt           0x00000570       0xa0 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x00000610     0x1724
+                0x00000610                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x00000610        0x0 /usr/lib/crti.o
+ .text          0x00000610       0xef /usr/lib/crtbeginS.o
+ *fill*         0x000006ff        0x1 
+ .text          0x00000700     0x1633 libMSKanji_pic.a(citrus_mskanji.pico)
+                0x00001600                _citrus_MSKanji_ctype_getops
+                0x00001bc0                _citrus_MSKanji_stdenc_getops
+ *fill*         0x00001d33        0x1 
+ .text          0x00001d34        0x0 /usr/lib/crtendS.o
+ .text          0x00001d34        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x00001d40        0xa
+ *(SORT(.fini))
+ .fini          0x00001d40        0x3 /usr/lib/crti.o
+                0x00001d40                _fini
+ .fini          0x00001d43        0x5 /usr/lib/crtbeginS.o
+ .fini          0x00001d48        0x2 /usr/lib/crtn.o
+                0x00001d4a                PROVIDE (__etext, .)
+                0x00001d4a                PROVIDE (_etext, .)
+                0x00001d4a                PROVIDE (etext, .)
+
+.rodata         0x00001d4c       0x1c
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00001d4c       0x14 libMSKanji_pic.a(citrus_mskanji.pico)
+ .rodata.str1.1
+                0x00001d60        0x8 libMSKanji_pic.a(citrus_mskanji.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00001d68      0x104
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00001d68      0x104 libMSKanji_pic.a(citrus_mskanji.pico)
+
+.eh_frame       0x00001e6c      0x3fc
+ *(.eh_frame)
+ .eh_frame      0x00001e6c       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x00001ea8        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x00001ea8      0x3bc libMSKanji_pic.a(citrus_mskanji.pico)
+ .eh_frame      0x00002264        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x00002268       0x18
+ .note.netbsd.ident
+                0x00002268       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x00002280       0x14
+ .note.netbsd.pax
+                0x00002280       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00002294                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00003294                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x00003294        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x00003294        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x00003298        0x4 /usr/lib/crtendS.o
+                0x00003298                __CTOR_LIST_END__
+
+.dtors          0x0000329c        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x0000329c        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000032a0        0x4 /usr/lib/crtendS.o
+
+.jcr            0x000032a4        0x4
+ *(.jcr)
+ .jcr           0x000032a4        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x000032a4        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x000032a8       0xb8
+ *(.dynamic)
+ .dynamic       0x000032a8       0xb8 /usr/lib/crti.o
+                0x000032a8                _DYNAMIC
+
+.got            0x00003360       0x1c
+ *(.got)
+ .got           0x00003360       0x1c /usr/lib/crti.o
+ *(.igot)
+                0x0000337c                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x0000337c       0x30
+ *(.got.plt)
+ .got.plt       0x0000337c       0x30 /usr/lib/crti.o
+                0x0000337c                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000033ac       0x9c
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000033ac        0x0 /usr/lib/crti.o
+ .data          0x000033ac        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x000033ac       0x26 /usr/lib/crtbeginS.o
+                0x000033ac                __dso_handle
+ *fill*         0x000033d2        0x2 
+ .data          0x000033d4        0x0 libMSKanji_pic.a(citrus_mskanji.pico)
+ .data.rel.local
+                0x000033d4       0x74 libMSKanji_pic.a(citrus_mskanji.pico)
+                0x000033d4                _citrus_MSKanji_ctype_ops
+                0x00003420                _citrus_MSKanji_stdenc_ops
+ .data          0x00003448        0x0 /usr/lib/crtendS.o
+ .data          0x00003448        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x00003448                _edata = .
+                0x00003448                PROVIDE (edata, .)
+                0x00003448                . = .
+                0x00003448                __bss_start = .
+
+.bss            0x00003448        0x0
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00003448        0x0 /usr/lib/crti.o
+ .bss           0x00003448        0x0 /usr/lib/crtbeginS.o
+ .bss           0x00003448        0x0 libMSKanji_pic.a(citrus_mskanji.pico)
+ .bss           0x00003448        0x0 /usr/lib/crtendS.o
+ .bss           0x00003448        0x0 /usr/lib/crtn.o
+ *(COMMON)
+                0x00003448                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00003448                . = ALIGN (0x4)
+                0x00003448                . = ALIGN (0x4)
+                0x00003448                _end = .
+                0x00003448                PROVIDE (end, .)
+                0x00003448                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libMSKanji_pic.a(citrus_mskanji.pico)
+                                 0x30 (size before relaxing)
+
+.ident          0x00000000      0x11f
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x41 libMSKanji_pic.a(citrus_mskanji.pico)
+ .ident         0x000000b1       0x38 /usr/lib/crtendS.o
+ .ident         0x000000e9       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libMSKanji.so.5.0 elf32-i386-minix)

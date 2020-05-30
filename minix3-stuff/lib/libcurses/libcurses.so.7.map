@@ -1,0 +1,1911 @@
+Archive member included because of file (symbol)
+
+libcurses_pic.a(inwstr.pico)  (--whole-archive)
+libcurses_pic.a(in_wchstr.pico)
+                              (--whole-archive)
+libcurses_pic.a(in_wch.pico)  (--whole-archive)
+libcurses_pic.a(get_wstr.pico)
+                              (--whole-archive)
+libcurses_pic.a(insstr.pico)  (--whole-archive)
+libcurses_pic.a(ins_wch.pico)
+                              (--whole-archive)
+libcurses_pic.a(echo_wchar.pico)
+                              (--whole-archive)
+libcurses_pic.a(addwstr.pico)
+                              (--whole-archive)
+libcurses_pic.a(add_wchstr.pico)
+                              (--whole-archive)
+libcurses_pic.a(unctrl.pico)  (--whole-archive)
+libcurses_pic.a(toucholap.pico)
+                              (--whole-archive)
+libcurses_pic.a(timeout.pico)
+                              (--whole-archive)
+libcurses_pic.a(scrollok.pico)
+                              (--whole-archive)
+libcurses_pic.a(scanw.pico)   (--whole-archive)
+libcurses_pic.a(printw.pico)  (--whole-archive)
+libcurses_pic.a(pause.pico)   (--whole-archive)
+libcurses_pic.a(overlay.pico)
+                              (--whole-archive)
+libcurses_pic.a(notimeout.pico)
+                              (--whole-archive)
+libcurses_pic.a(nodelay.pico)
+                              (--whole-archive)
+libcurses_pic.a(mvwin.pico)   (--whole-archive)
+libcurses_pic.a(line.pico)    (--whole-archive)
+libcurses_pic.a(leaveok.pico)
+                              (--whole-archive)
+libcurses_pic.a(keyname.pico)
+                              (--whole-archive)
+libcurses_pic.a(keypad.pico)  (--whole-archive)
+libcurses_pic.a(instr.pico)   (--whole-archive)
+libcurses_pic.a(insertln.pico)
+                              (--whole-archive)
+libcurses_pic.a(insch.pico)   (--whole-archive)
+libcurses_pic.a(initscr.pico)
+                              (--whole-archive)
+libcurses_pic.a(inchstr.pico)
+                              (--whole-archive)
+libcurses_pic.a(inch.pico)    (--whole-archive)
+libcurses_pic.a(idcok.pico)   (--whole-archive)
+libcurses_pic.a(idlok.pico)   (--whole-archive)
+libcurses_pic.a(getstr.pico)  (--whole-archive)
+libcurses_pic.a(fullname.pico)
+                              (--whole-archive)
+libcurses_pic.a(flushok.pico)
+                              (--whole-archive)
+libcurses_pic.a(fileio.pico)  (--whole-archive)
+libcurses_pic.a(echochar.pico)
+                              (--whole-archive)
+libcurses_pic.a(deleteln.pico)
+                              (--whole-archive)
+libcurses_pic.a(ctrace.pico)  (--whole-archive)
+libcurses_pic.a(clrtobot.pico)
+                              (--whole-archive)
+libcurses_pic.a(clear.pico)   (--whole-archive)
+libcurses_pic.a(chgat.pico)   (--whole-archive)
+libcurses_pic.a(box.pico)     (--whole-archive)
+libcurses_pic.a(border.pico)  (--whole-archive)
+libcurses_pic.a(bell.pico)    (--whole-archive)
+libcurses_pic.a(background.pico)
+                              (--whole-archive)
+libcurses_pic.a(attributes.pico)
+                              (--whole-archive)
+libcurses_pic.a(addnstr.pico)
+                              (--whole-archive)
+libcurses_pic.a(addchnstr.pico)
+                              (--whole-archive)
+libcurses_pic.a(ins_wstr.pico)
+                              (--whole-archive)
+libcurses_pic.a(underscore.pico)
+                              (--whole-archive)
+libcurses_pic.a(standout.pico)
+                              (--whole-archive)
+libcurses_pic.a(screen.pico)  (--whole-archive)
+libcurses_pic.a(delwin.pico)  (--whole-archive)
+libcurses_pic.a(clearok.pico)
+                              (--whole-archive)
+libcurses_pic.a(acs.pico)     (--whole-archive)
+libcurses_pic.a(get_wch.pico)
+                              (--whole-archive)
+libcurses_pic.a(setterm.pico)
+                              (--whole-archive)
+libcurses_pic.a(getch.pico)   (--whole-archive)
+libcurses_pic.a(delch.pico)   (--whole-archive)
+libcurses_pic.a(addch.pico)   (--whole-archive)
+libcurses_pic.a(cchar.pico)   (--whole-archive)
+libcurses_pic.a(add_wch.pico)
+                              (--whole-archive)
+libcurses_pic.a(addbytes.pico)
+                              (--whole-archive)
+libcurses_pic.a(scroll.pico)  (--whole-archive)
+libcurses_pic.a(insdelln.pico)
+                              (--whole-archive)
+libcurses_pic.a(id_subwins.pico)
+                              (--whole-archive)
+libcurses_pic.a(getyx.pico)   (--whole-archive)
+libcurses_pic.a(clrtoeol.pico)
+                              (--whole-archive)
+libcurses_pic.a(tty.pico)     (--whole-archive)
+libcurses_pic.a(tstp.pico)    (--whole-archive)
+libcurses_pic.a(resize.pico)  (--whole-archive)
+libcurses_pic.a(newwin.pico)  (--whole-archive)
+libcurses_pic.a(meta.pico)    (--whole-archive)
+libcurses_pic.a(curs_set.pico)
+                              (--whole-archive)
+libcurses_pic.a(overwrite.pico)
+                              (--whole-archive)
+libcurses_pic.a(copywin.pico)
+                              (--whole-archive)
+libcurses_pic.a(refresh.pico)
+                              (--whole-archive)
+libcurses_pic.a(erase.pico)   (--whole-archive)
+libcurses_pic.a(curses.pico)  (--whole-archive)
+libcurses_pic.a(cur_hash.pico)
+                              (--whole-archive)
+libcurses_pic.a(cr_put.pico)  (--whole-archive)
+libcurses_pic.a(color.pico)   (--whole-archive)
+libcurses_pic.a(touchwin.pico)
+                              (--whole-archive)
+libcurses_pic.a(putchar.pico)
+                              (--whole-archive)
+libcurses_pic.a(move.pico)    (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+LINES               0x4               libcurses_pic.a(curses.pico)
+_acs_char           0x200             libcurses_pic.a(acs.pico)
+__mask_me           0x4               libcurses_pic.a(setterm.pico)
+__virtscr           0x4               libcurses_pic.a(curses.pico)
+__GT                0x1               libcurses_pic.a(curses.pico)
+__CA                0x1               libcurses_pic.a(curses.pico)
+COLORS              0x4               libcurses_pic.a(curses.pico)
+curscr              0x4               libcurses_pic.a(curses.pico)
+__pfast             0x4               libcurses_pic.a(curses.pico)
+__mask_op           0x4               libcurses_pic.a(setterm.pico)
+stdscr              0x4               libcurses_pic.a(curses.pico)
+_cursesi_screen     0x4               libcurses_pic.a(curses.pico)
+_wacs_char          0x1400            libcurses_pic.a(acs.pico)
+COLS                0x4               libcurses_pic.a(curses.pico)
+__mask_se           0x4               libcurses_pic.a(setterm.pico)
+state               0x2               libcurses_pic.a(getch.pico)
+TABSIZE             0x4               libcurses_pic.a(curses.pico)
+__mask_ue           0x4               libcurses_pic.a(setterm.pico)
+__UPPERCASE         0x1               libcurses_pic.a(curses.pico)
+__NONL              0x1               libcurses_pic.a(curses.pico)
+
+Discarded input sections
+
+ .gnu.warning.inwstr
+                0x00000000        0x0 libcurses_pic.a(inwstr.pico)
+ .gnu.warning.mvinwstr
+                0x00000000        0x0 libcurses_pic.a(inwstr.pico)
+ .gnu.warning.mvwinwstr
+                0x00000000        0x0 libcurses_pic.a(inwstr.pico)
+ .gnu.warning.winwstr
+                0x00000000        0x0 libcurses_pic.a(inwstr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(inwstr.pico)
+ .gnu.warning.in_wchstr
+                0x00000000        0x0 libcurses_pic.a(in_wchstr.pico)
+ .gnu.warning.mvin_wchstr
+                0x00000000        0x0 libcurses_pic.a(in_wchstr.pico)
+ .gnu.warning.mvwin_wchstr
+                0x00000000        0x0 libcurses_pic.a(in_wchstr.pico)
+ .gnu.warning.win_wchstr
+                0x00000000        0x0 libcurses_pic.a(in_wchstr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(in_wchstr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(in_wch.pico)
+ .gnu.warning.get_wstr
+                0x00000000        0x0 libcurses_pic.a(get_wstr.pico)
+ .gnu.warning.mvget_wstr
+                0x00000000        0x0 libcurses_pic.a(get_wstr.pico)
+ .gnu.warning.wget_wstr
+                0x00000000        0x0 libcurses_pic.a(get_wstr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(get_wstr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(insstr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(ins_wch.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(echo_wchar.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(addwstr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(add_wchstr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(unctrl.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(toucholap.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(timeout.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(scrollok.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(scanw.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(printw.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(pause.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(overlay.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(notimeout.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(nodelay.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(mvwin.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(line.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(leaveok.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(keyname.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(keypad.pico)
+ .gnu.warning.instr
+                0x00000000        0x0 libcurses_pic.a(instr.pico)
+ .gnu.warning.mvinstr
+                0x00000000        0x0 libcurses_pic.a(instr.pico)
+ .gnu.warning.mvwinstr
+                0x00000000        0x0 libcurses_pic.a(instr.pico)
+ .gnu.warning.winstr
+                0x00000000        0x0 libcurses_pic.a(instr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(instr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(insertln.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(insch.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(initscr.pico)
+ .gnu.warning.inchstr
+                0x00000000        0x0 libcurses_pic.a(inchstr.pico)
+ .gnu.warning.mvinchstr
+                0x00000000        0x0 libcurses_pic.a(inchstr.pico)
+ .gnu.warning.mvwinchstr
+                0x00000000        0x0 libcurses_pic.a(inchstr.pico)
+ .gnu.warning.winchstr
+                0x00000000        0x0 libcurses_pic.a(inchstr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(inchstr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(inch.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(idcok.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(idlok.pico)
+ .gnu.warning.getstr
+                0x00000000        0x0 libcurses_pic.a(getstr.pico)
+ .gnu.warning.mvgetstr
+                0x00000000        0x0 libcurses_pic.a(getstr.pico)
+ .gnu.warning.wgetstr
+                0x00000000        0x0 libcurses_pic.a(getstr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(getstr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(fullname.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(flushok.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(fileio.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(echochar.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(deleteln.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(ctrace.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(clrtobot.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(clear.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(chgat.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(box.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(border.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(bell.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(background.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(attributes.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(addnstr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(addchnstr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(ins_wstr.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(underscore.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(standout.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(screen.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(delwin.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(clearok.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(acs.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(get_wch.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(setterm.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(getch.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(delch.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(addch.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(cchar.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(add_wch.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(addbytes.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(scroll.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(insdelln.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(id_subwins.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(getyx.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(clrtoeol.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(tty.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(tstp.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(resize.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(newwin.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(meta.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(curs_set.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(overwrite.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(copywin.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(refresh.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(erase.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(curses.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(cur_hash.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(cr_put.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(color.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(touchwin.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(putchar.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libcurses_pic.a(move.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libcurses_pic.a
+LOAD /usr/src/lib/libterminfo/libterminfo.so
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4      0xc2c
+ *(.hash)
+ .hash          0x000000f4      0xc2c /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000d20     0x2020
+ *(.dynsym)
+ .dynsym        0x00000d20     0x2020 /usr/lib/crti.o
+
+.dynstr         0x00002d40      0xfc7
+ *(.dynstr)
+ .dynstr        0x00002d40      0xfc7 /usr/lib/crti.o
+
+.gnu.version    0x00003d08        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x00003d08        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x00003d08        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x00003d08     0x11a0
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x00003d08     0x1000 /usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x00004d08        0x8 /usr/lib/crti.o
+ .rel.data.rel.local
+                0x00004d10        0x8 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00004d18      0x190 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x00004ea8      0x548
+ *(.rel.plt)
+ .rel.plt       0x00004ea8      0x548 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x000053f0        0xa
+ *(SORT(.init))
+ .init          0x000053f0        0x3 /usr/lib/crti.o
+                0x000053f0                _init
+ .init          0x000053f3        0x5 /usr/lib/crtbeginS.o
+ .init          0x000053f8        0x2 /usr/lib/crtn.o
+
+.plt            0x00005400      0xaa0
+ *(.plt)
+ .plt           0x00005400      0xaa0 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x00005ea0    0x1777c
+                0x00005ea0                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x00005ea0        0x0 /usr/lib/crti.o
+ .text          0x00005ea0       0xef /usr/lib/crtbeginS.o
+ *fill*         0x00005f8f        0x1 
+ .text          0x00005f90      0x5c1 libcurses_pic.a(inwstr.pico)
+                0x00005f90                inwstr
+                0x00006040                winwstr
+                0x000060d0                innwstr
+                0x000061c0                winnwstr
+                0x00006290                mvinwstr
+                0x00006350                mvwinwstr
+                0x00006410                mvinnwstr
+                0x00006460                mvwinnwstr
+ *fill*         0x00006551        0xf 
+ .text          0x00006560      0x376 libcurses_pic.a(in_wchstr.pico)
+                0x00006560                in_wchstr
+                0x000065a0                win_wchstr
+                0x000065e0                in_wchnstr
+                0x00006620                win_wchnstr
+                0x00006760                mvin_wchstr
+                0x000067c0                mvwin_wchstr
+                0x00006820                mvin_wchnstr
+                0x00006880                mvwin_wchnstr
+ *fill*         0x000068d6        0xa 
+ .text          0x000068e0      0x21e libcurses_pic.a(in_wch.pico)
+                0x000068e0                in_wch
+                0x00006980                win_wch
+                0x00006a00                mvin_wch
+                0x00006a40                mvwin_wch
+ *fill*         0x00006afe        0x2 
+ .text          0x00006b00      0x6d3 libcurses_pic.a(get_wstr.pico)
+                0x00006b00                getn_wstr
+                0x00006b50                wgetn_wstr
+                0x00006b90                get_wstr
+                0x00006bc0                wget_wstr
+                0x00006bf0                mvgetn_wstr
+                0x00006c60                mvwgetn_wstr
+                0x00006cd0                mvget_wstr
+                0x00006d30                mvwget_wstr
+ *fill*         0x000071d3        0xd 
+ .text          0x000071e0      0x3de libcurses_pic.a(insstr.pico)
+                0x000071e0                insstr
+                0x00007220                winsstr
+                0x00007260                insnstr
+                0x000072a0                winsnstr
+                0x00007440                mvinsstr
+                0x000074a0                mvwinsstr
+                0x00007500                mvinsnstr
+                0x00007560                mvwinsnstr
+ *fill*         0x000075be        0x2 
+ .text          0x000075c0      0x465 libcurses_pic.a(ins_wch.pico)
+                0x000075c0                ins_wch
+                0x000075f0                wins_wch
+                0x00007970                mvins_wch
+                0x000079d0                mvwins_wch
+ *fill*         0x00007a25        0xb 
+ .text          0x00007a30       0xf1 libcurses_pic.a(echo_wchar.pico)
+                0x00007a30                echo_wchar
+                0x00007a70                wecho_wchar
+                0x00007ab0                pecho_wchar
+ *fill*         0x00007b21        0xf 
+ .text          0x00007b30      0x55b libcurses_pic.a(addwstr.pico)
+                0x00007b30                addwstr
+                0x00007c00                waddnwstr
+                0x00007cf0                waddwstr
+                0x00007db0                addnwstr
+                0x00007df0                mvaddwstr
+                0x00007ee0                mvwaddnwstr
+                0x00007f40                mvwaddwstr
+                0x00008030                mvaddnwstr
+ *fill*         0x0000808b        0x5 
+ .text          0x00008090      0x65b libcurses_pic.a(add_wchstr.pico)
+                0x00008090                add_wchstr
+                0x000080d0                wadd_wchnstr
+                0x000084f0                wadd_wchstr
+                0x00008530                add_wchnstr
+                0x00008570                mvadd_wchstr
+                0x000085d0                mvwadd_wchnstr
+                0x00008630                mvwadd_wchstr
+                0x00008690                mvadd_wchnstr
+ *fill*         0x000086eb        0x1 
+ .text          0x000086ec        0x0 libcurses_pic.a(unctrl.pico)
+ *fill*         0x000086ec        0x4 
+ .text          0x000086f0      0x106 libcurses_pic.a(toucholap.pico)
+                0x000086f0                touchoverlap
+ *fill*         0x000087f6        0xa 
+ .text          0x00008800       0xaa libcurses_pic.a(timeout.pico)
+                0x00008800                timeout
+                0x00008860                wtimeout
+ *fill*         0x000088aa        0x6 
+ .text          0x000088b0       0x1f libcurses_pic.a(scrollok.pico)
+                0x000088b0                scrollok
+ *fill*         0x000088cf        0x1 
+ .text          0x000088d0      0x254 libcurses_pic.a(scanw.pico)
+                0x000088d0                scanw
+                0x00008940                vwscanw
+                0x00008940                vw_scanw
+                0x000089a0                wscanw
+                0x00008a10                mvscanw
+                0x00008aa0                mvwscanw
+ *fill*         0x00008b24        0xc 
+ .text          0x00008b30      0x311 libcurses_pic.a(printw.pico)
+                0x00008b30                printw
+                0x00008bb0                vwprintw
+                0x00008bb0                vw_printw
+                0x00008c30                wprintw
+                0x00008cb0                mvprintw
+                0x00008d50                mvwprintw
+ *fill*         0x00008e41        0xf 
+ .text          0x00008e50      0x13a libcurses_pic.a(pause.pico)
+                0x00008e50                napms
+                0x00008ec0                delay_output
+ *fill*         0x00008f8a        0x6 
+ .text          0x00008f90       0x6e libcurses_pic.a(overlay.pico)
+                0x00008f90                overlay
+ *fill*         0x00008ffe        0x2 
+ .text          0x00009000       0x25 libcurses_pic.a(notimeout.pico)
+                0x00009000                notimeout
+ *fill*         0x00009025        0xb 
+ .text          0x00009030       0x1b libcurses_pic.a(nodelay.pico)
+                0x00009030                nodelay
+ *fill*         0x0000904b        0x5 
+ .text          0x00009050      0x1b5 libcurses_pic.a(mvwin.pico)
+                0x00009050                mvderwin
+                0x000090e0                mvwin
+ *fill*         0x00009205        0xb 
+ .text          0x00009210      0x908 libcurses_pic.a(line.pico)
+                0x00009210                hline
+                0x00009280                whline
+                0x000092e0                mvhline
+                0x00009370                mvwhline
+                0x000093f0                whline_set
+                0x000094f0                vline
+                0x00009530                wvline
+                0x00009640                mvvline
+                0x000096a0                mvwvline
+                0x00009700                wvline_set
+                0x000097e0                hline_set
+                0x00009820                mvhline_set
+                0x00009880                mvwhline_set
+                0x000098e0                vline_set
+                0x000099d0                mvvline_set
+                0x00009a20                mvwvline_set
+ *fill*         0x00009b18        0x8 
+ .text          0x00009b20       0x25 libcurses_pic.a(leaveok.pico)
+                0x00009b20                leaveok
+ *fill*         0x00009b45        0xb 
+ .text          0x00009b50      0x61f libcurses_pic.a(keyname.pico)
+                0x00009b50                keyname
+                0x0000a110                key_name
+ *fill*         0x0000a16f        0x1 
+ .text          0x0000a170       0x80 libcurses_pic.a(keypad.pico)
+                0x0000a170                keypad
+ .text          0x0000a1f0      0x431 libcurses_pic.a(instr.pico)
+                0x0000a1f0                instr
+                0x0000a260                winstr
+                0x0000a2c0                innstr
+                0x0000a340                winnstr
+                0x0000a3b0                mvinstr
+                0x0000a440                mvwinstr
+                0x0000a4d0                mvinnstr
+                0x0000a580                mvwinnstr
+ *fill*         0x0000a621        0xf 
+ .text          0x0000a630       0x6c libcurses_pic.a(insertln.pico)
+                0x0000a630                insertln
+                0x0000a670                winsertln
+ *fill*         0x0000a69c        0x4 
+ .text          0x0000a6a0      0x245 libcurses_pic.a(insch.pico)
+                0x0000a6a0                insch
+                0x0000a6d0                winsch
+                0x0000a830                mvinsch
+                0x0000a890                mvwinsch
+ *fill*         0x0000a8e5        0xb 
+ .text          0x0000a8f0      0x110 libcurses_pic.a(initscr.pico)
+                0x0000a8f0                initscr
+ .text          0x0000aa00      0x473 libcurses_pic.a(inchstr.pico)
+                0x0000aa00                inchstr
+                0x0000aa70                winchstr
+                0x0000aad0                inchnstr
+                0x0000ab60                winchnstr
+                0x0000abd0                mvinchstr
+                0x0000ac70                mvwinchstr
+                0x0000ad10                mvinchnstr
+                0x0000add0                mvwinchnstr
+ *fill*         0x0000ae73        0xd 
+ .text          0x0000ae80      0x20e libcurses_pic.a(inch.pico)
+                0x0000ae80                inch
+                0x0000aef0                winch
+                0x0000af60                mvinch
+                0x0000b000                mvwinch
+ *fill*         0x0000b08e        0x2 
+ .text          0x0000b090       0x25 libcurses_pic.a(idcok.pico)
+                0x0000b090                idcok
+ *fill*         0x0000b0b5        0xb 
+ .text          0x0000b0c0       0x1f libcurses_pic.a(idlok.pico)
+                0x0000b0c0                idlok
+ *fill*         0x0000b0df        0x1 
+ .text          0x0000b0e0      0x6b6 libcurses_pic.a(getstr.pico)
+                0x0000b0e0                getnstr
+                0x0000b130                wgetnstr
+                0x0000b170                getstr
+                0x0000b1b0                wgetstr
+                0x0000b1f0                mvgetnstr
+                0x0000b260                mvwgetnstr
+                0x0000b2d0                mvgetstr
+                0x0000b330                mvwgetstr
+                0x0000b390                __wgetnstr
+ *fill*         0x0000b796        0xa 
+ .text          0x0000b7a0       0x61 libcurses_pic.a(fullname.pico)
+                0x0000b7a0                fullname
+ *fill*         0x0000b801        0xf 
+ .text          0x0000b810       0x1f libcurses_pic.a(flushok.pico)
+                0x0000b810                flushok
+ *fill*         0x0000b82f        0x1 
+ .text          0x0000b830      0x62c libcurses_pic.a(fileio.pico)
+                0x0000b830                putwin
+                0x0000bb00                getwin
+ *fill*         0x0000be5c        0x4 
+ .text          0x0000be60       0xf1 libcurses_pic.a(echochar.pico)
+                0x0000be60                echochar
+                0x0000bea0                wechochar
+                0x0000bee0                pechochar
+ *fill*         0x0000bf51        0xf 
+ .text          0x0000bf60       0x6c libcurses_pic.a(deleteln.pico)
+                0x0000bf60                deleteln
+                0x0000bfa0                wdeleteln
+ *fill*         0x0000bfcc        0x4 
+ .text          0x0000bfd0        0x5 libcurses_pic.a(ctrace.pico)
+                0x0000bfd0                __cursesi_make_lint_shut_up_if_debug_not_defined
+ *fill*         0x0000bfd5        0xb 
+ .text          0x0000bfe0      0x1d4 libcurses_pic.a(clrtobot.pico)
+                0x0000bfe0                clrtobot
+                0x0000c010                wclrtobot
+ *fill*         0x0000c1b4        0xc 
+ .text          0x0000c1c0       0x75 libcurses_pic.a(clear.pico)
+                0x0000c1c0                clear
+                0x0000c200                wclear
+ *fill*         0x0000c235        0xb 
+ .text          0x0000c240      0x343 libcurses_pic.a(chgat.pico)
+                0x0000c240                chgat
+                0x0000c290                wchgat
+                0x0000c390                mvchgat
+                0x0000c4a0                mvwchgat
+ *fill*         0x0000c583        0xd 
+ .text          0x0000c590       0xba libcurses_pic.a(box.pico)
+                0x0000c590                box
+                0x0000c5f0                box_set
+ *fill*         0x0000c64a        0x6 
+ .text          0x0000c650     0x1545 libcurses_pic.a(border.pico)
+                0x0000c650                border
+                0x0000c6c0                wborder
+                0x0000c940                wborder_set
+                0x0000db30                border_set
+ *fill*         0x0000db95        0xb 
+ .text          0x0000dba0       0xb4 libcurses_pic.a(bell.pico)
+                0x0000dba0                beep
+                0x0000dc00                flash
+ *fill*         0x0000dc54        0xc 
+ .text          0x0000dc60      0x602 libcurses_pic.a(background.pico)
+                0x0000dc60                bkgdset
+                0x0000dcb0                wbkgdset
+                0x0000dd00                bkgd
+                0x0000dd40                wbkgd
+                0x0000de50                getbkgd
+                0x0000deb0                bkgrnd
+                0x0000df40                wbkgrnd
+                0x0000dfc0                bkgrndset
+                0x0000dff0                wbkgrndset
+                0x0000e130                getbkgrnd
+                0x0000e1d0                wgetbkgrnd
+ *fill*         0x0000e262        0xe 
+ .text          0x0000e270      0x95e libcurses_pic.a(attributes.pico)
+                0x0000e270                attr_get
+                0x0000e2c0                wattr_get
+                0x0000e300                attr_on
+                0x0000e340                wattr_on
+                0x0000e4d0                attr_off
+                0x0000e510                wattr_off
+                0x0000e600                attr_set
+                0x0000e690                wattr_set
+                0x0000e720                color_set
+                0x0000e770                wcolor_set
+                0x0000e7c0                attron
+                0x0000e800                attroff
+                0x0000e840                attrset
+                0x0000e8c0                wattrset
+                0x0000e930                __wcolor_set
+                0x0000e980                wattron
+                0x0000e9b0                wattroff
+                0x0000e9e0                getattrs
+                0x0000e9f0                termattrs
+                0x0000eac0                term_attrs
+ *fill*         0x0000ebce        0x2 
+ .text          0x0000ebd0      0x324 libcurses_pic.a(addnstr.pico)
+                0x0000ebd0                addstr
+                0x0000ec10                waddnstr
+                0x0000ec70                waddstr
+                0x0000ecb0                addnstr
+                0x0000ed10                mvaddstr
+                0x0000ed80                mvwaddnstr
+                0x0000ee10                mvwaddstr
+                0x0000ee70                mvaddnstr
+ *fill*         0x0000eef4        0xc 
+ .text          0x0000ef00      0x3ab libcurses_pic.a(addchnstr.pico)
+                0x0000ef00                addchstr
+                0x0000ef40                waddchnstr
+                0x0000f0b0                waddchstr
+                0x0000f0f0                addchnstr
+                0x0000f130                mvaddchstr
+                0x0000f190                mvwaddchnstr
+                0x0000f1f0                mvwaddchstr
+                0x0000f250                mvaddchnstr
+ *fill*         0x0000f2ab        0x5 
+ .text          0x0000f2b0      0x6bc libcurses_pic.a(ins_wstr.pico)
+                0x0000f2b0                ins_wstr
+                0x0000f2f0                wins_wstr
+                0x0000f330                ins_nwstr
+                0x0000f370                wins_nwstr
+                0x0000f7f0                mvins_wstr
+                0x0000f850                mvwins_wstr
+                0x0000f8b0                mvins_nwstr
+                0x0000f910                mvwins_nwstr
+ *fill*         0x0000f96c        0x4 
+ .text          0x0000f970      0x111 libcurses_pic.a(underscore.pico)
+                0x0000f970                underscore
+                0x0000f9c0                wunderscore
+                0x0000fa10                underend
+                0x0000fa50                wunderend
+ *fill*         0x0000fa81        0xf 
+ .text          0x0000fa90       0xe1 libcurses_pic.a(standout.pico)
+                0x0000fa90                standout
+                0x0000fae0                wstandout
+                0x0000fb30                standend
+                0x0000fb60                wstandend
+ *fill*         0x0000fb71        0xf 
+ .text          0x0000fb80      0x4df libcurses_pic.a(screen.pico)
+                0x0000fb80                set_term
+                0x0000fd10                newterm
+                0x0000ffd0                delscreen
+ *fill*         0x0001005f        0x1 
+ .text          0x00010060       0xf3 libcurses_pic.a(delwin.pico)
+                0x00010060                delwin
+ *fill*         0x00010153        0xd 
+ .text          0x00010160       0x1f libcurses_pic.a(clearok.pico)
+                0x00010160                clearok
+ *fill*         0x0001017f        0x1 
+ .text          0x00010180      0x7ed libcurses_pic.a(acs.pico)
+                0x00010180                __init_acs
+                0x00010330                _cursesi_reset_acs
+                0x00010370                __init_wacs
+                0x00010920                _cursesi_reset_wacs
+ *fill*         0x0001096d        0x3 
+ .text          0x00010970      0xc28 libcurses_pic.a(get_wch.pico)
+                0x00010970                __init_get_wch
+                0x000109c0                get_wch
+                0x000109f0                wget_wch
+                0x00010d40                mvget_wch
+                0x00010da0                mvwget_wch
+                0x00011580                unget_wch
+ *fill*         0x00011598        0x8 
+ .text          0x000115a0      0x84a libcurses_pic.a(setterm.pico)
+                0x000115a0                setterm
+                0x000115d0                _cursesi_setterm
+                0x00011d50                _cursesi_resetterm
+ *fill*         0x00011dea        0x6 
+ .text          0x00011df0      0xecf libcurses_pic.a(getch.pico)
+                0x00011df0                _cursesi_free_keymap
+                0x00011e90                __init_getch
+                0x00012090                getch
+                0x000120c0                wgetch
+                0x00012310                mvgetch
+                0x00012360                mvwgetch
+                0x000123b0                keyok
+                0x000124a0                define_key
+                0x00012930                ungetch
+                0x00012a00                __unget
+ *fill*         0x00012cbf        0x1 
+ .text          0x00012cc0      0x2b9 libcurses_pic.a(delch.pico)
+                0x00012cc0                delch
+                0x00012cf0                wdelch
+                0x00012ee0                mvdelch
+                0x00012f30                mvwdelch
+ *fill*         0x00012f79        0x7 
+ .text          0x00012f80      0x1ce libcurses_pic.a(addch.pico)
+                0x00012f80                addch
+                0x00012fd0                waddch
+                0x00013020                mvaddch
+                0x00013090                mvwaddch
+                0x00013100                __waddch
+ *fill*         0x0001314e        0x2 
+ .text          0x00013150      0x209 libcurses_pic.a(cchar.pico)
+                0x00013150                getcchar
+                0x00013200                setcchar
+                0x00013300                __cursesi_chtype_to_cchar
+ *fill*         0x00013359        0x7 
+ .text          0x00013360      0x1f8 libcurses_pic.a(add_wch.pico)
+                0x00013360                add_wch
+                0x000133d0                wadd_wch
+                0x00013440                mvadd_wch
+                0x000134d0                mvwadd_wch
+ *fill*         0x00013558        0x8 
+ .text          0x00013560      0xd3d libcurses_pic.a(addbytes.pico)
+                0x00013560                addbytes
+                0x000135b0                _cursesi_waddbytes
+                0x00013710                waddbytes
+                0x00013760                mvaddbytes
+                0x000137d0                mvwaddbytes
+                0x00013840                __waddbytes
+                0x00013890                _cursesi_addwchar
+                0x00014050                _cursesi_addbyte
+ *fill*         0x0001429d        0x3 
+ .text          0x000142a0      0x225 libcurses_pic.a(scroll.pico)
+                0x000142a0                scroll
+                0x000142d0                wscrl
+                0x000143b0                scrl
+                0x000143e0                setscrreg
+                0x00014420                wsetscrreg
+                0x00014450                has_ic
+                0x00014490                has_il
+ *fill*         0x000144c5        0xb 
+ .text          0x000144d0      0x401 libcurses_pic.a(insdelln.pico)
+                0x000144d0                insdelln
+                0x00014500                winsdelln
+ *fill*         0x000148d1        0xf 
+ .text          0x000148e0       0x77 libcurses_pic.a(id_subwins.pico)
+                0x000148e0                __id_subwins
+ *fill*         0x00014957        0x9 
+ .text          0x00014960       0x9b libcurses_pic.a(getyx.pico)
+                0x00014960                getpary
+                0x00014980                getparx
+                0x000149a0                getcury
+                0x000149b0                getcurx
+                0x000149c0                getbegy
+                0x000149d0                getbegx
+                0x000149e0                getmaxy
+                0x000149f0                getmaxx
+ *fill*         0x000149fb        0x5 
+ .text          0x00014a00      0x1c7 libcurses_pic.a(clrtoeol.pico)
+                0x00014a00                clrtoeol
+                0x00014a30                wclrtoeol
+ *fill*         0x00014bc7        0x9 
+ .text          0x00014bd0     0x12a0 libcurses_pic.a(tty.pico)
+                0x00014bd0                baudrate
+                0x00014c10                gettmode
+                0x00014c60                _cursesi_gettmode
+                0x00014dc0                raw
+                0x00014e70                noraw
+                0x00014f20                cbreak
+                0x00014fc0                nocbreak
+                0x00015110                __notimeout
+                0x000151c0                halfdelay
+                0x000152a0                __timeout
+                0x000153e0                __delay
+                0x00015510                __restore_termios
+                0x000155a0                __nodelay
+                0x000156d0                __save_termios
+                0x00015720                echo
+                0x00015760                noecho
+                0x000157a0                nl
+                0x00015860                nonl
+                0x00015920                noqiflush
+                0x000159b0                intrflush
+                0x00015a80                qiflush
+                0x00015b10                __startwin
+                0x00015c60                endwin
+                0x00015c80                isendwin
+                0x00015cb0                flushinp
+                0x00015ce0                savetty
+                0x00015d40                resetty
+                0x00015da0                erasechar
+                0x00015dd0                killchar
+                0x00015e00                erasewchar
+                0x00015e40                killwchar
+ .text          0x00015e70      0x8d8 libcurses_pic.a(tstp.pico)
+                0x00015e70                __stop_signal_handler
+                0x00015f50                __stopwin
+                0x000161a0                __restartwin
+                0x000163c0                __set_stophandler
+                0x00016410                __restore_stophandler
+                0x00016460                __winch_signal_handler
+                0x00016500                __set_winchhandler
+                0x00016590                __restore_winchhandler
+                0x00016620                def_prog_mode
+                0x00016680                reset_prog_mode
+                0x000166e0                def_shell_mode
+                0x00016730                reset_shell_mode
+ *fill*         0x00016748        0x8 
+ .text          0x00016750      0x719 libcurses_pic.a(resize.pico)
+                0x00016750                wresize
+                0x00016ce0                resizeterm
+ *fill*         0x00016e69        0x7 
+ .text          0x00016e70      0x986 libcurses_pic.a(newwin.pico)
+                0x00016e70                derwin
+                0x00016ff0                subpad
+                0x00017040                dupwin
+                0x000170b0                __newwin
+                0x00017260                newwin
+                0x000172c0                newpad
+                0x00017600                subwin
+                0x00017650                __set_subwin
+                0x00017780                __swflags
+ *fill*         0x000177f6        0xa 
+ .text          0x00017800       0xe7 libcurses_pic.a(meta.pico)
+                0x00017800                meta
+                0x000178b0                __restore_meta_state
+ *fill*         0x000178e7        0x9 
+ .text          0x000178f0       0xfd libcurses_pic.a(curs_set.pico)
+                0x000178f0                curs_set
+                0x000179c0                __restore_cursor_vis
+ *fill*         0x000179ed        0x3 
+ .text          0x000179f0       0x6e libcurses_pic.a(overwrite.pico)
+                0x000179f0                overwrite
+ *fill*         0x00017a5e        0x2 
+ .text          0x00017a60      0x20e libcurses_pic.a(copywin.pico)
+                0x00017a60                copywin
+ *fill*         0x00017c6e        0x2 
+ .text          0x00017c70     0x33c8 libcurses_pic.a(refresh.pico)
+                0x00017c70                refresh
+                0x00017ca0                wrefresh
+                0x00017d70                wnoutrefresh
+                0x00018380                pnoutrefresh
+                0x00018490                doupdate
+                0x0001abb0                prefresh
+                0x0001ad10                __unsetattr
+                0x0001aea0                cellcmp
+                0x0001af30                linecmp
+                0x0001b000                __cursesi_putnsp
+ *fill*         0x0001b038        0x8 
+ .text          0x0001b040      0x143 libcurses_pic.a(erase.pico)
+                0x0001b040                erase
+                0x0001b070                werase
+ *fill*         0x0001b183        0xd 
+ .text          0x0001b190      0x1c8 libcurses_pic.a(curses.pico)
+                0x0001b190                _cursesi_copy_nsp
+                0x0001b280                __cursesi_free_nsp
+                0x0001b2c0                __cursesi_win_free_nsp
+ *fill*         0x0001b358        0x8 
+ .text          0x0001b360       0x49 libcurses_pic.a(cur_hash.pico)
+                0x0001b360                __hash_more
+ *fill*         0x0001b3a9        0x7 
+ .text          0x0001b3b0      0xc38 libcurses_pic.a(cr_put.pico)
+                0x0001b3b0                mvcur
+                0x0001b400                __mvcur
+ *fill*         0x0001bfe8        0x8 
+ .text          0x0001bff0      0xed5 libcurses_pic.a(color.pico)
+                0x0001bff0                has_colors
+                0x0001c060                can_change_color
+                0x0001c090                start_color
+                0x0001c5e0                init_color
+                0x0001c640                init_pair
+                0x0001c940                pair_content
+                0x0001ca00                color_content
+                0x0001ca60                use_default_colors
+                0x0001cb00                assume_default_colors
+                0x0001cc00                no_color_attributes
+                0x0001cc00                no_color_video
+                0x0001cc20                __set_color
+                0x0001ce50                __unset_color
+                0x0001cec0                __restore_colors
+ *fill*         0x0001cec5        0xb 
+ .text          0x0001ced0      0x524 libcurses_pic.a(touchwin.pico)
+                0x0001ced0                is_linetouched
+                0x0001cf00                touchline
+                0x0001cf90                wtouchln
+                0x0001d050                wredrawln
+                0x0001d0e0                is_wintouched
+                0x0001d120                touchwin
+                0x0001d180                redrawwin
+                0x0001d1e0                untouchwin
+                0x0001d270                __touchwin
+                0x0001d2d0                __touchline
+                0x0001d310                wsyncup
+                0x0001d370                wsyncdown
+ *fill*         0x0001d3f4        0xc 
+ .text          0x0001d400      0x108 libcurses_pic.a(putchar.pico)
+                0x0001d400                __cputchar
+                0x0001d460                __cputchar_args
+                0x0001d4b0                __cputwchar
+                0x0001d4f0                __cputwchar_args
+ *fill*         0x0001d508        0x8 
+ .text          0x0001d510      0x10c libcurses_pic.a(move.pico)
+                0x0001d510                move
+                0x0001d570                wmove
+                0x0001d5b0                wcursyncup
+ .text          0x0001d61c        0x0 /usr/lib/crtendS.o
+ .text          0x0001d61c        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x0001d620        0xa
+ *(SORT(.fini))
+ .fini          0x0001d620        0x3 /usr/lib/crti.o
+                0x0001d620                _fini
+ .fini          0x0001d623        0x5 /usr/lib/crtbeginS.o
+ .fini          0x0001d628        0x2 /usr/lib/crtn.o
+                0x0001d62a                PROVIDE (__etext, .)
+                0x0001d62a                PROVIDE (_etext, .)
+                0x0001d62a                PROVIDE (etext, .)
+
+.rodata         0x0001d62c     0x1ef4
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0001d62c       0x18 libcurses_pic.a(ins_wch.pico)
+ .rodata.str4.4
+                0x0001d644        0xc libcurses_pic.a(ins_wch.pico)
+ .rodata.str1.1
+                0x0001d650      0x32f libcurses_pic.a(unctrl.pico)
+                                0x3a1 (size before relaxing)
+ .rodata        0x0001d97f      0x100 libcurses_pic.a(unctrl.pico)
+                0x0001d97f                __unctrllen
+ *fill*         0x0001da7f        0x1 
+ .rodata.str4.4
+                0x0001da80      0xcfc libcurses_pic.a(unctrl.pico)
+                                0xe84 (size before relaxing)
+ .rodata.str1.1
+                0x0001e77c        0x3 libcurses_pic.a(pause.pico)
+ *fill*         0x0001e77f        0x1 
+ .rodata        0x0001e780      0x67e libcurses_pic.a(keyname.pico)
+ .rodata.cst4   0x0001edfe        0x8 libcurses_pic.a(keyname.pico)
+ .rodata.str1.1
+                0x0001ee06        0xa libcurses_pic.a(keyname.pico)
+                                  0xd (size before relaxing)
+ .rodata.cst8   0x0001ee10       0x68 libcurses_pic.a(keyname.pico)
+ .rodata.str1.1
+                0x0001ee78        0x5 libcurses_pic.a(initscr.pico)
+ *fill*         0x0001ee7d        0x3 
+ .rodata        0x0001ee80       0x18 libcurses_pic.a(ins_wstr.pico)
+ .rodata.str4.4
+                0x00000000        0xc libcurses_pic.a(ins_wstr.pico)
+ .rodata.str1.1
+                0x00000000        0x5 libcurses_pic.a(screen.pico)
+ .rodata.str1.1
+                0x0001ee98        0x6 libcurses_pic.a(acs.pico)
+                                  0x9 (size before relaxing)
+ *fill*         0x0001ee9e        0x2 
+ .rodata        0x0001eea0       0x14 libcurses_pic.a(get_wch.pico)
+ .rodata.str1.1
+                0x0001eeb4       0x22 libcurses_pic.a(get_wch.pico)
+ *fill*         0x0001eed6        0x2 
+ .rodata        0x0001eed8       0x14 libcurses_pic.a(setterm.pico)
+ .rodata.str1.1
+                0x0001eeec       0x33 libcurses_pic.a(setterm.pico)
+ *fill*         0x0001ef1f        0x1 
+ .rodata        0x0001ef20      0x4b0 libcurses_pic.a(getch.pico)
+ .rodata.str1.1
+                0x0001f3d0       0xac libcurses_pic.a(getch.pico)
+ .rodata        0x0001f47c       0x30 libcurses_pic.a(addbytes.pico)
+ .rodata.str1.1
+                0x0001f4ac        0x8 libcurses_pic.a(curses.pico)
+ .rodata        0x0001f4b4       0x6c libcurses_pic.a(color.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0001f520      0xd6c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0001f520      0xd6c libcurses_pic.a(inwstr.pico)
+
+.eh_frame       0x0002028c     0x3354
+ *(.eh_frame)
+ .eh_frame      0x0002028c       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x000202c8        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x000202c8      0x118 libcurses_pic.a(inwstr.pico)
+ .eh_frame      0x000203e0       0xf4 libcurses_pic.a(in_wchstr.pico)
+                                0x10c (size before relaxing)
+ .eh_frame      0x000204d4       0x80 libcurses_pic.a(in_wch.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x00020554      0x110 libcurses_pic.a(get_wstr.pico)
+                                0x128 (size before relaxing)
+ .eh_frame      0x00020664       0xec libcurses_pic.a(insstr.pico)
+                                0x104 (size before relaxing)
+ .eh_frame      0x00020750       0x78 libcurses_pic.a(ins_wch.pico)
+                                 0x90 (size before relaxing)
+ .eh_frame      0x000207c8       0x5c libcurses_pic.a(echo_wchar.pico)
+                                 0x74 (size before relaxing)
+ .eh_frame      0x00020824       0xfc libcurses_pic.a(addwstr.pico)
+                                0x114 (size before relaxing)
+ .eh_frame      0x00020920       0xf4 libcurses_pic.a(add_wchstr.pico)
+                                0x10c (size before relaxing)
+ .eh_frame      0x00020a14       0x20 libcurses_pic.a(toucholap.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00020a34       0x38 libcurses_pic.a(timeout.pico)
+                                 0x50 (size before relaxing)
+ .eh_frame      0x00020a6c       0x1c libcurses_pic.a(scrollok.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x00020a88       0xa0 libcurses_pic.a(scanw.pico)
+                                 0xb8 (size before relaxing)
+ .eh_frame      0x00020b28       0xc0 libcurses_pic.a(printw.pico)
+                                 0xd8 (size before relaxing)
+ .eh_frame      0x00020be8       0x38 libcurses_pic.a(pause.pico)
+                                 0x50 (size before relaxing)
+ .eh_frame      0x00020c20       0x20 libcurses_pic.a(overlay.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00020c40       0x1c libcurses_pic.a(notimeout.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x00020c5c       0x1c libcurses_pic.a(nodelay.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x00020c78       0x40 libcurses_pic.a(mvwin.pico)
+                                 0x58 (size before relaxing)
+ .eh_frame      0x00020cb8      0x1f8 libcurses_pic.a(line.pico)
+                                0x210 (size before relaxing)
+ .eh_frame      0x00020eb0       0x1c libcurses_pic.a(leaveok.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x00020ecc       0x3c libcurses_pic.a(keyname.pico)
+                                 0x54 (size before relaxing)
+ .eh_frame      0x00020f08       0x20 libcurses_pic.a(keypad.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00020f28      0x100 libcurses_pic.a(instr.pico)
+                                0x118 (size before relaxing)
+ .eh_frame      0x00021028       0x38 libcurses_pic.a(insertln.pico)
+                                 0x50 (size before relaxing)
+ .eh_frame      0x00021060       0x78 libcurses_pic.a(insch.pico)
+                                 0x90 (size before relaxing)
+ .eh_frame      0x000210d8       0x1c libcurses_pic.a(initscr.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x000210f4      0x100 libcurses_pic.a(inchstr.pico)
+                                0x118 (size before relaxing)
+ .eh_frame      0x000211f4       0x80 libcurses_pic.a(inch.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x00021274       0x1c libcurses_pic.a(idcok.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x00021290       0x1c libcurses_pic.a(idlok.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x000212ac      0x110 libcurses_pic.a(getstr.pico)
+                                0x128 (size before relaxing)
+ .eh_frame      0x000213bc       0x20 libcurses_pic.a(fullname.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x000213dc       0x1c libcurses_pic.a(flushok.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x000213f8       0x60 libcurses_pic.a(fileio.pico)
+                                 0x78 (size before relaxing)
+ .eh_frame      0x00021458       0x5c libcurses_pic.a(echochar.pico)
+                                 0x74 (size before relaxing)
+ .eh_frame      0x000214b4       0x38 libcurses_pic.a(deleteln.pico)
+                                 0x50 (size before relaxing)
+ .eh_frame      0x000214ec       0x1c libcurses_pic.a(ctrace.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x00021508       0x3c libcurses_pic.a(clrtobot.pico)
+                                 0x54 (size before relaxing)
+ .eh_frame      0x00021544       0x40 libcurses_pic.a(clear.pico)
+                                 0x58 (size before relaxing)
+ .eh_frame      0x00021584       0x80 libcurses_pic.a(chgat.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x00021604       0x38 libcurses_pic.a(box.pico)
+                                 0x50 (size before relaxing)
+ .eh_frame      0x0002163c       0x80 libcurses_pic.a(border.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x000216bc       0x38 libcurses_pic.a(bell.pico)
+                                 0x50 (size before relaxing)
+ .eh_frame      0x000216f4      0x150 libcurses_pic.a(background.pico)
+                                0x168 (size before relaxing)
+ .eh_frame      0x00021844      0x248 libcurses_pic.a(attributes.pico)
+                                0x260 (size before relaxing)
+ .eh_frame      0x00021a8c      0x100 libcurses_pic.a(addnstr.pico)
+                                0x118 (size before relaxing)
+ .eh_frame      0x00021b8c       0xf4 libcurses_pic.a(addchnstr.pico)
+                                0x10c (size before relaxing)
+ .eh_frame      0x00021c80       0xec libcurses_pic.a(ins_wstr.pico)
+                                0x104 (size before relaxing)
+ .eh_frame      0x00021d6c       0x70 libcurses_pic.a(underscore.pico)
+                                 0x88 (size before relaxing)
+ .eh_frame      0x00021ddc       0x70 libcurses_pic.a(standout.pico)
+                                 0x88 (size before relaxing)
+ .eh_frame      0x00021e4c       0x60 libcurses_pic.a(screen.pico)
+                                 0x78 (size before relaxing)
+ .eh_frame      0x00021eac       0x20 libcurses_pic.a(delwin.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00021ecc       0x1c libcurses_pic.a(clearok.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x00021ee8       0x7c libcurses_pic.a(acs.pico)
+                                 0x94 (size before relaxing)
+ .eh_frame      0x00021f64       0xd4 libcurses_pic.a(get_wch.pico)
+                                 0xec (size before relaxing)
+ .eh_frame      0x00022038       0x78 libcurses_pic.a(setterm.pico)
+                                 0x90 (size before relaxing)
+ .eh_frame      0x000220b0      0x1d4 libcurses_pic.a(getch.pico)
+                                0x1ec (size before relaxing)
+ .eh_frame      0x00022284       0x78 libcurses_pic.a(delch.pico)
+                                 0x90 (size before relaxing)
+ .eh_frame      0x000222fc       0x9c libcurses_pic.a(addch.pico)
+                                 0xb4 (size before relaxing)
+ .eh_frame      0x00022398       0x60 libcurses_pic.a(cchar.pico)
+                                 0x78 (size before relaxing)
+ .eh_frame      0x000223f8       0x80 libcurses_pic.a(add_wch.pico)
+                                 0x98 (size before relaxing)
+ .eh_frame      0x00022478       0xf8 libcurses_pic.a(addbytes.pico)
+                                0x110 (size before relaxing)
+ .eh_frame      0x00022570       0xc8 libcurses_pic.a(scroll.pico)
+                                 0xe0 (size before relaxing)
+ .eh_frame      0x00022638       0x3c libcurses_pic.a(insdelln.pico)
+                                 0x54 (size before relaxing)
+ .eh_frame      0x00022674       0x20 libcurses_pic.a(id_subwins.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00022694       0xe0 libcurses_pic.a(getyx.pico)
+                                 0xf8 (size before relaxing)
+ .eh_frame      0x00022774       0x3c libcurses_pic.a(clrtoeol.pico)
+                                 0x54 (size before relaxing)
+ .eh_frame      0x000227b0      0x3b0 libcurses_pic.a(tty.pico)
+                                0x3c8 (size before relaxing)
+ .eh_frame      0x00022b60      0x160 libcurses_pic.a(tstp.pico)
+                                0x178 (size before relaxing)
+ .eh_frame      0x00022cc0       0x60 libcurses_pic.a(resize.pico)
+                                 0x78 (size before relaxing)
+ .eh_frame      0x00022d20      0x15c libcurses_pic.a(newwin.pico)
+                                0x174 (size before relaxing)
+ .eh_frame      0x00022e7c       0x38 libcurses_pic.a(meta.pico)
+                                 0x50 (size before relaxing)
+ .eh_frame      0x00022eb4       0x3c libcurses_pic.a(curs_set.pico)
+                                 0x54 (size before relaxing)
+ .eh_frame      0x00022ef0       0x20 libcurses_pic.a(overwrite.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00022f10       0x20 libcurses_pic.a(copywin.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00022f30      0x15c libcurses_pic.a(refresh.pico)
+                                0x174 (size before relaxing)
+ .eh_frame      0x0002308c       0x3c libcurses_pic.a(erase.pico)
+                                 0x54 (size before relaxing)
+ .eh_frame      0x000230c8       0x60 libcurses_pic.a(curses.pico)
+                                 0x78 (size before relaxing)
+ .eh_frame      0x00023128       0x20 libcurses_pic.a(cur_hash.pico)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00023148       0x9c libcurses_pic.a(cr_put.pico)
+                                 0xb4 (size before relaxing)
+ .eh_frame      0x000231e4      0x1ac libcurses_pic.a(color.pico)
+                                0x1c4 (size before relaxing)
+ .eh_frame      0x00023390      0x178 libcurses_pic.a(touchwin.pico)
+                                0x190 (size before relaxing)
+ .eh_frame      0x00023508       0x78 libcurses_pic.a(putchar.pico)
+                                 0x90 (size before relaxing)
+ .eh_frame      0x00023580       0x5c libcurses_pic.a(move.pico)
+                                 0x74 (size before relaxing)
+ .eh_frame      0x000235dc        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x000235e0       0x18
+ .note.netbsd.ident
+                0x000235e0       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x000235f8       0x14
+ .note.netbsd.pax
+                0x000235f8       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0002360c                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0002460c                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0002460c        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x0002460c        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x00024610        0x4 /usr/lib/crtendS.o
+                0x00024610                __CTOR_LIST_END__
+
+.dtors          0x00024614        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x00024614        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x00024618        0x4 /usr/lib/crtendS.o
+
+.jcr            0x0002461c        0x4
+ *(.jcr)
+ .jcr           0x0002461c        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x0002461c        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro    0x00024620      0x800
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x00024620      0x800 libcurses_pic.a(unctrl.pico)
+                0x00024620                __unctrl
+                0x00024a20                __wunctrl
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x00024e20       0xb8
+ *(.dynamic)
+ .dynamic       0x00024e20       0xb8 /usr/lib/crti.o
+                0x00024e20                _DYNAMIC
+
+.got            0x00024ed8       0xc8
+ *(.got)
+ .got           0x00024ed8       0xc8 /usr/lib/crti.o
+ *(.igot)
+                0x00024fa0                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x00024fa0      0x2b0
+ *(.got.plt)
+ .got.plt       0x00024fa0      0x2b0 /usr/lib/crti.o
+                0x00024fa0                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00025250       0x44
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00025250        0x0 /usr/lib/crti.o
+ .data          0x00025250        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x00025250       0x26 /usr/lib/crtbeginS.o
+                0x00025250                __dso_handle
+ *fill*         0x00025276        0x2 
+ .data          0x00025278        0x0 libcurses_pic.a(inwstr.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(in_wchstr.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(in_wch.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(get_wstr.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(insstr.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(ins_wch.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(echo_wchar.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(addwstr.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(add_wchstr.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(unctrl.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(toucholap.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(timeout.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(scrollok.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(scanw.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(printw.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(pause.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(overlay.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(notimeout.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(nodelay.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(mvwin.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(line.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(leaveok.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(keyname.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(keypad.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(instr.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(insertln.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(insch.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(initscr.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(inchstr.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(inch.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(idcok.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(idlok.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(getstr.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(fullname.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(flushok.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(fileio.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(echochar.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(deleteln.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(ctrace.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(clrtobot.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(clear.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(chgat.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(box.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(border.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(bell.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(background.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(attributes.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(addnstr.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(addchnstr.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(ins_wstr.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(underscore.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(standout.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(screen.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(delwin.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(clearok.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(acs.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(get_wch.pico)
+ .data          0x00025278        0x0 libcurses_pic.a(setterm.pico)
+ .data          0x00025278        0x4 libcurses_pic.a(getch.pico)
+                0x00025278                ESCDELAY
+ .data          0x0002527c        0x0 libcurses_pic.a(delch.pico)
+ .data          0x0002527c        0x0 libcurses_pic.a(addch.pico)
+ .data          0x0002527c        0x0 libcurses_pic.a(cchar.pico)
+ .data          0x0002527c        0x0 libcurses_pic.a(add_wch.pico)
+ .data          0x0002527c        0x2 libcurses_pic.a(addbytes.pico)
+ *fill*         0x0002527e        0x2 
+ .data          0x00025280        0x0 libcurses_pic.a(scroll.pico)
+ .data          0x00025280        0x0 libcurses_pic.a(insdelln.pico)
+ .data          0x00025280        0x0 libcurses_pic.a(id_subwins.pico)
+ .data          0x00025280        0x0 libcurses_pic.a(getyx.pico)
+ .data          0x00025280        0x0 libcurses_pic.a(clrtoeol.pico)
+ .data          0x00025280        0x4 libcurses_pic.a(tty.pico)
+                0x00025280                __tcaction
+ .data          0x00025284        0x0 libcurses_pic.a(tstp.pico)
+ .data          0x00025284        0x0 libcurses_pic.a(resize.pico)
+ .data          0x00025284        0x0 libcurses_pic.a(newwin.pico)
+ .data          0x00025284        0x0 libcurses_pic.a(meta.pico)
+ .data          0x00025284        0x0 libcurses_pic.a(curs_set.pico)
+ .data          0x00025284        0x0 libcurses_pic.a(overwrite.pico)
+ .data          0x00025284        0x0 libcurses_pic.a(copywin.pico)
+ .data          0x00025284        0x0 libcurses_pic.a(refresh.pico)
+ .data          0x00025284        0x0 libcurses_pic.a(erase.pico)
+ .data          0x00025284        0x4 libcurses_pic.a(curses.pico)
+                0x00025284                __echoit
+ .data.rel.local
+                0x00025288        0x4 libcurses_pic.a(curses.pico)
+                0x00025288                Def_term
+ .data          0x0002528c        0x0 libcurses_pic.a(cur_hash.pico)
+ .data          0x0002528c        0x0 libcurses_pic.a(cr_put.pico)
+ .data          0x0002528c        0x8 libcurses_pic.a(color.pico)
+                0x0002528c                __default_pair
+ .data          0x00025294        0x0 libcurses_pic.a(touchwin.pico)
+ .data          0x00025294        0x0 libcurses_pic.a(putchar.pico)
+ .data          0x00025294        0x0 libcurses_pic.a(move.pico)
+ .data          0x00025294        0x0 /usr/lib/crtendS.o
+ .data          0x00025294        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x00025294                _edata = .
+                0x00025294                PROVIDE (edata, .)
+                0x00025294                . = .
+                0x00025294                __bss_start = .
+
+.bss            0x00025294     0x1d08
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00025294        0x0 /usr/lib/crti.o
+ .bss           0x00025294        0x0 /usr/lib/crtbeginS.o
+ .bss           0x00025294        0x0 libcurses_pic.a(inwstr.pico)
+ .bss           0x00025294        0x0 libcurses_pic.a(in_wchstr.pico)
+ .bss           0x00025294        0x0 libcurses_pic.a(in_wch.pico)
+ .bss           0x00025294        0x0 libcurses_pic.a(get_wstr.pico)
+ .bss           0x00025294        0x0 libcurses_pic.a(insstr.pico)
+ .bss           0x00025294        0x0 libcurses_pic.a(ins_wch.pico)
+ .bss           0x00025294        0x0 libcurses_pic.a(echo_wchar.pico)
+ .bss           0x00025294        0x0 libcurses_pic.a(addwstr.pico)
+ .bss           0x00025294        0x0 libcurses_pic.a(add_wchstr.pico)
+ .bss           0x00025294        0x0 libcurses_pic.a(unctrl.pico)
+ .bss           0x00025294        0x0 libcurses_pic.a(toucholap.pico)
+ .bss           0x00025294        0x0 libcurses_pic.a(timeout.pico)
+ .bss           0x00025294        0x0 libcurses_pic.a(scrollok.pico)
+ .bss           0x00025294        0x0 libcurses_pic.a(scanw.pico)
+ .bss           0x00025294        0x0 libcurses_pic.a(printw.pico)
+ .bss           0x00025294        0x0 libcurses_pic.a(pause.pico)
+ .bss           0x00025294        0x0 libcurses_pic.a(overlay.pico)
+ .bss           0x00025294        0x0 libcurses_pic.a(notimeout.pico)
+ .bss           0x00025294        0x0 libcurses_pic.a(nodelay.pico)
+ .bss           0x00025294        0x0 libcurses_pic.a(mvwin.pico)
+ .bss           0x00025294        0x0 libcurses_pic.a(line.pico)
+ .bss           0x00025294        0x0 libcurses_pic.a(leaveok.pico)
+ .bss           0x00025294        0xf libcurses_pic.a(keyname.pico)
+ *fill*         0x000252a3        0x1 
+ .bss           0x000252a4        0x0 libcurses_pic.a(keypad.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(instr.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(insertln.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(insch.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(initscr.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(inchstr.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(inch.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(idcok.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(idlok.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(getstr.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(fullname.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(flushok.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(fileio.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(echochar.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(deleteln.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(ctrace.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(clrtobot.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(clear.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(chgat.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(box.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(border.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(bell.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(background.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(attributes.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(addnstr.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(addchnstr.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(ins_wstr.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(underscore.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(standout.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(screen.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(delwin.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(clearok.pico)
+ .bss           0x000252a4        0x0 libcurses_pic.a(acs.pico)
+ .bss           0x000252a4        0x2 libcurses_pic.a(get_wch.pico)
+ *fill*         0x000252a6        0x2 
+ .bss           0x000252a8        0x0 libcurses_pic.a(setterm.pico)
+ .bss           0x000252a8       0x4c libcurses_pic.a(getch.pico)
+ .bss           0x000252f4        0x0 libcurses_pic.a(delch.pico)
+ .bss           0x000252f4        0x0 libcurses_pic.a(addch.pico)
+ .bss           0x000252f4        0x0 libcurses_pic.a(cchar.pico)
+ .bss           0x000252f4        0x0 libcurses_pic.a(add_wch.pico)
+ .bss           0x000252f4        0x0 libcurses_pic.a(addbytes.pico)
+ .bss           0x000252f4        0x0 libcurses_pic.a(scroll.pico)
+ .bss           0x000252f4        0x0 libcurses_pic.a(insdelln.pico)
+ .bss           0x000252f4        0x0 libcurses_pic.a(id_subwins.pico)
+ .bss           0x000252f4        0x0 libcurses_pic.a(getyx.pico)
+ .bss           0x000252f4        0x0 libcurses_pic.a(clrtoeol.pico)
+ .bss           0x000252f4        0x0 libcurses_pic.a(tty.pico)
+ .bss           0x000252f4       0x24 libcurses_pic.a(tstp.pico)
+ .bss           0x00025318        0x0 libcurses_pic.a(resize.pico)
+ .bss           0x00025318        0x0 libcurses_pic.a(newwin.pico)
+ .bss           0x00025318        0x0 libcurses_pic.a(meta.pico)
+ .bss           0x00025318        0x0 libcurses_pic.a(curs_set.pico)
+ .bss           0x00025318        0x0 libcurses_pic.a(overwrite.pico)
+ .bss           0x00025318        0x0 libcurses_pic.a(copywin.pico)
+ .bss           0x00025318      0x614 libcurses_pic.a(refresh.pico)
+ .bss           0x0002592c        0x0 libcurses_pic.a(erase.pico)
+ .bss           0x0002592c       0x10 libcurses_pic.a(curses.pico)
+                0x0002592c                __rawmode
+                0x00025930                __noqch
+                0x00025934                COLOR_PAIRS
+                0x00025938                My_term
+ .bss           0x0002593c        0x0 libcurses_pic.a(cur_hash.pico)
+ .bss           0x0002593c       0x18 libcurses_pic.a(cr_put.pico)
+ .bss           0x00025954        0x8 libcurses_pic.a(color.pico)
+                0x00025954                __using_color
+                0x00025958                __default_color
+ .bss           0x0002595c        0x0 libcurses_pic.a(touchwin.pico)
+ .bss           0x0002595c        0x0 libcurses_pic.a(putchar.pico)
+ .bss           0x0002595c        0x0 libcurses_pic.a(move.pico)
+ .bss           0x0002595c        0x0 /usr/lib/crtendS.o
+ .bss           0x0002595c        0x0 /usr/lib/crtn.o
+ *(COMMON)
+ COMMON         0x0002595c     0x1600 libcurses_pic.a(acs.pico)
+                0x0002595c                _acs_char
+                0x00025b5c                _wacs_char
+ COMMON         0x00026f5c       0x10 libcurses_pic.a(setterm.pico)
+                0x00026f5c                __mask_me
+                0x00026f60                __mask_op
+                0x00026f64                __mask_se
+                0x00026f68                __mask_ue
+ COMMON         0x00026f6c        0x2 libcurses_pic.a(getch.pico)
+                0x00026f6c                state
+ *fill*         0x00026f6e        0x2 
+ COMMON         0x00026f70       0x2a libcurses_pic.a(curses.pico)
+                0x00026f70                LINES
+                0x00026f74                __virtscr
+                0x00026f78                __GT
+                0x00026f79                __CA
+                0x00026f7c                COLORS
+                0x00026f80                curscr
+                0x00026f84                __pfast
+                0x00026f88                stdscr
+                0x00026f8c                _cursesi_screen
+                0x00026f90                COLS
+                0x00026f94                TABSIZE
+                0x00026f98                __UPPERCASE
+                0x00026f99                __NONL
+                0x00026f9c                . = ALIGN ((. != 0x0)?0x4:0x1)
+ *fill*         0x00026f9a        0x2 
+                0x00026f9c                . = ALIGN (0x4)
+                0x00026f9c                . = ALIGN (0x4)
+                0x00026f9c                _end = .
+                0x00026f9c                PROVIDE (end, .)
+                0x00026f9c                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libcurses_pic.a(inwstr.pico)
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 libcurses_pic.a(in_wchstr.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(in_wch.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(get_wstr.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(insstr.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(ins_wch.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(echo_wchar.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(addwstr.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(add_wchstr.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(unctrl.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(toucholap.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(timeout.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(scrollok.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(scanw.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(printw.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(pause.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(overlay.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(notimeout.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(nodelay.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(mvwin.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(line.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(leaveok.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(keyname.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(keypad.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(instr.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(insertln.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(insch.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(initscr.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(inchstr.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(inch.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(idcok.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(idlok.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(getstr.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(fullname.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(flushok.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(fileio.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(echochar.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(deleteln.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(ctrace.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(clrtobot.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(clear.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(chgat.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(box.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(border.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(bell.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(background.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(attributes.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(addnstr.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(addchnstr.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(ins_wstr.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(underscore.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(standout.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(screen.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(delwin.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(clearok.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(acs.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(get_wch.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(setterm.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(getch.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(delch.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(addch.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(cchar.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(add_wch.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(addbytes.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(scroll.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(insdelln.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(id_subwins.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(getyx.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(clrtoeol.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(tty.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(tstp.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(resize.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(newwin.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(meta.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(curs_set.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(overwrite.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(copywin.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(refresh.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(erase.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(curses.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(cur_hash.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(cr_put.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(color.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(touchwin.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(putchar.pico)
+ .comment       0x00000000       0x30 libcurses_pic.a(move.pico)
+
+.ident          0x00000000     0x144d
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x36 libcurses_pic.a(inwstr.pico)
+ .ident         0x000000a6       0x39 libcurses_pic.a(in_wchstr.pico)
+ .ident         0x000000df       0x36 libcurses_pic.a(in_wch.pico)
+ .ident         0x00000115       0x38 libcurses_pic.a(get_wstr.pico)
+ .ident         0x0000014d       0x36 libcurses_pic.a(insstr.pico)
+ .ident         0x00000183       0x37 libcurses_pic.a(ins_wch.pico)
+ .ident         0x000001ba       0x3c libcurses_pic.a(echo_wchar.pico)
+ .ident         0x000001f6       0x39 libcurses_pic.a(addwstr.pico)
+ .ident         0x0000022f       0x3f libcurses_pic.a(add_wchstr.pico)
+ .ident         0x0000026e       0x39 libcurses_pic.a(unctrl.pico)
+ .ident         0x000002a7       0x3a libcurses_pic.a(toucholap.pico)
+ .ident         0x000002e1       0x37 libcurses_pic.a(timeout.pico)
+ .ident         0x00000318       0x3b libcurses_pic.a(scrollok.pico)
+ .ident         0x00000353       0x38 libcurses_pic.a(scanw.pico)
+ .ident         0x0000038b       0x39 libcurses_pic.a(printw.pico)
+ .ident         0x000003c4       0x35 libcurses_pic.a(pause.pico)
+ .ident         0x000003f9       0x38 libcurses_pic.a(overlay.pico)
+ .ident         0x00000431       0x3b libcurses_pic.a(notimeout.pico)
+ .ident         0x0000046c       0x37 libcurses_pic.a(nodelay.pico)
+ .ident         0x000004a3       0x38 libcurses_pic.a(mvwin.pico)
+ .ident         0x000004db       0x39 libcurses_pic.a(line.pico)
+ .ident         0x00000514       0x3a libcurses_pic.a(leaveok.pico)
+ .ident         0x0000054e       0x3a libcurses_pic.a(keyname.pico)
+ .ident         0x00000588       0x37 libcurses_pic.a(keypad.pico)
+ .ident         0x000005bf       0x37 libcurses_pic.a(instr.pico)
+ .ident         0x000005f6       0x39 libcurses_pic.a(insertln.pico)
+ .ident         0x0000062f       0x36 libcurses_pic.a(insch.pico)
+ .ident         0x00000665       0x38 libcurses_pic.a(initscr.pico)
+ .ident         0x0000069d       0x39 libcurses_pic.a(inchstr.pico)
+ .ident         0x000006d6       0x35 libcurses_pic.a(inch.pico)
+ .ident         0x0000070b       0x37 libcurses_pic.a(idcok.pico)
+ .ident         0x00000742       0x36 libcurses_pic.a(idlok.pico)
+ .ident         0x00000778       0x39 libcurses_pic.a(getstr.pico)
+ .ident         0x000007b1       0x39 libcurses_pic.a(fullname.pico)
+ .ident         0x000007ea       0x3a libcurses_pic.a(flushok.pico)
+ .ident         0x00000824       0x36 libcurses_pic.a(fileio.pico)
+ .ident         0x0000085a       0x3b libcurses_pic.a(echochar.pico)
+ .ident         0x00000895       0x39 libcurses_pic.a(deleteln.pico)
+ .ident         0x000008ce       0x3c libcurses_pic.a(ctrace.pico)
+ .ident         0x0000090a       0x3e libcurses_pic.a(clrtobot.pico)
+ .ident         0x00000948       0x36 libcurses_pic.a(clear.pico)
+ .ident         0x0000097e       0x37 libcurses_pic.a(chgat.pico)
+ .ident         0x000009b5       0x36 libcurses_pic.a(box.pico)
+ .ident         0x000009eb       0x37 libcurses_pic.a(border.pico)
+ .ident         0x00000a22       0x34 libcurses_pic.a(bell.pico)
+ .ident         0x00000a56       0x3b libcurses_pic.a(background.pico)
+ .ident         0x00000a91       0x3d libcurses_pic.a(attributes.pico)
+ .ident         0x00000ace       0x3a libcurses_pic.a(addnstr.pico)
+ .ident         0x00000b08       0x3b libcurses_pic.a(addchnstr.pico)
+ .ident         0x00000b43       0x38 libcurses_pic.a(ins_wstr.pico)
+ .ident         0x00000b7b       0x3b libcurses_pic.a(underscore.pico)
+ .ident         0x00000bb6       0x39 libcurses_pic.a(standout.pico)
+ .ident         0x00000bef       0x3c libcurses_pic.a(screen.pico)
+ .ident         0x00000c2b       0x37 libcurses_pic.a(delwin.pico)
+ .ident         0x00000c62       0x3a libcurses_pic.a(clearok.pico)
+ .ident         0x00000c9c       0x34 libcurses_pic.a(acs.pico)
+ .ident         0x00000cd0       0x70 libcurses_pic.a(get_wch.pico)
+ .ident         0x00000d40       0x38 libcurses_pic.a(setterm.pico)
+ .ident         0x00000d78       0x6c libcurses_pic.a(getch.pico)
+ .ident         0x00000de4       0x36 libcurses_pic.a(delch.pico)
+ .ident         0x00000e1a       0x38 libcurses_pic.a(addch.pico)
+ .ident         0x00000e52       0x35 libcurses_pic.a(cchar.pico)
+ .ident         0x00000e87       0x39 libcurses_pic.a(add_wch.pico)
+ .ident         0x00000ec0       0x3e libcurses_pic.a(addbytes.pico)
+ .ident         0x00000efe       0x37 libcurses_pic.a(scroll.pico)
+ .ident         0x00000f35       0x39 libcurses_pic.a(insdelln.pico)
+ .ident         0x00000f6e       0x3b libcurses_pic.a(id_subwins.pico)
+ .ident         0x00000fa9       0x38 libcurses_pic.a(getyx.pico)
+ .ident         0x00000fe1       0x3e libcurses_pic.a(clrtoeol.pico)
+ .ident         0x0000101f       0x39 libcurses_pic.a(tty.pico)
+ .ident         0x00001058       0x3a libcurses_pic.a(tstp.pico)
+ .ident         0x00001092       0x37 libcurses_pic.a(resize.pico)
+ .ident         0x000010c9       0x37 libcurses_pic.a(newwin.pico)
+ .ident         0x00001100       0x36 libcurses_pic.a(meta.pico)
+ .ident         0x00001136       0x3b libcurses_pic.a(curs_set.pico)
+ .ident         0x00001171       0x3a libcurses_pic.a(overwrite.pico)
+ .ident         0x000011ab       0x38 libcurses_pic.a(copywin.pico)
+ .ident         0x000011e3       0x3a libcurses_pic.a(refresh.pico)
+ .ident         0x0000121d       0x38 libcurses_pic.a(erase.pico)
+ .ident         0x00001255       0x37 libcurses_pic.a(curses.pico)
+ .ident         0x0000128c       0x39 libcurses_pic.a(cur_hash.pico)
+ .ident         0x000012c5       0x37 libcurses_pic.a(cr_put.pico)
+ .ident         0x000012fc       0x36 libcurses_pic.a(color.pico)
+ .ident         0x00001332       0x3b libcurses_pic.a(touchwin.pico)
+ .ident         0x0000136d       0x38 libcurses_pic.a(putchar.pico)
+ .ident         0x000013a5       0x3a libcurses_pic.a(move.pico)
+ .ident         0x000013df       0x38 /usr/lib/crtendS.o
+ .ident         0x00001417       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libcurses.so.7.0 elf32-i386-minix)

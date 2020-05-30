@@ -1,0 +1,19 @@
+[runner2]start time = Mon Sep 23 10:54:45 2019
+
+[runner]start time = Mon Sep 23 10:54:45 2019
+[runner3]start time = Mon Sep 23 10:54:45 2019
+
+[runner5]start time = Mon Sep 23 10:54:45 2019
+
+[runner]finish time = Mon Sep 23 10:54:45 2019
+[runner3]finish time = Mon Sep 23 10:54:45 2019
+[runner5]finish time = Mon Sep 23 10:54:45 2019
+[runner2]finish time = Mon Sep 23 10:54:45 2019
+[runner4]start time = Mon Sep 23 10:54:45 2019
+
+[runner4] finish time = Mon Sep 23 10:54:45 2019
+[main] sum = 50005000
+[main] sum2 = 100010000
+[main] sum3 = 150015000
+[main] sum4 = 200020000
+[main] sum5 = 250025000

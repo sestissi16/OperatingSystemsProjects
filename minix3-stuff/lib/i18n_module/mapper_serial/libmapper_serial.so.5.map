@@ -1,0 +1,370 @@
+Archive member included because of file (symbol)
+
+libmapper_serial_pic.a(citrus_mapper_serial.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libmapper_serial_pic.a(citrus_mapper_serial.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libmapper_serial_pic.a
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4       0xa8
+ *(.hash)
+ .hash          0x000000f4       0xa8 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000019c      0x170
+ *(.dynsym)
+ .dynsym        0x0000019c      0x170 /usr/lib/crti.o
+
+.dynstr         0x0000030c      0x1c8
+ *(.dynstr)
+ .dynstr        0x0000030c      0x1c8 /usr/lib/crti.o
+
+.gnu.version    0x000004d4        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x000004d4        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x000004d4        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x000004d4       0x78
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x000004d4        0x8 /usr/lib/crti.o
+ .rel.data.rel.local
+                0x000004dc       0x40 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000051c       0x30 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x0000054c       0x68
+ *(.rel.plt)
+ .rel.plt       0x0000054c       0x68 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x000005c0        0xa
+ *(SORT(.init))
+ .init          0x000005c0        0x3 /usr/lib/crti.o
+                0x000005c0                _init
+ .init          0x000005c3        0x5 /usr/lib/crtbeginS.o
+ .init          0x000005c8        0x2 /usr/lib/crtn.o
+
+.plt            0x000005d0       0xe0
+ *(.plt)
+ .plt           0x000005d0       0xe0 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x000006b0      0x4dc
+                0x000006b0                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x000006b0        0x0 /usr/lib/crti.o
+ .text          0x000006b0       0xef /usr/lib/crtbeginS.o
+ *fill*         0x0000079f        0x1 
+ .text          0x000007a0      0x3ea libmapper_serial_pic.a(citrus_mapper_serial.pico)
+                0x00000af0                _citrus_mapper_serial_mapper_getops
+                0x00000b40                _citrus_mapper_parallel_mapper_getops
+ *fill*         0x00000b8a        0x2 
+ .text          0x00000b8c        0x0 /usr/lib/crtendS.o
+ .text          0x00000b8c        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x00000b90        0xa
+ *(SORT(.fini))
+ .fini          0x00000b90        0x3 /usr/lib/crti.o
+                0x00000b90                _fini
+ .fini          0x00000b93        0x5 /usr/lib/crtbeginS.o
+ .fini          0x00000b98        0x2 /usr/lib/crtn.o
+                0x00000b9a                PROVIDE (__etext, .)
+                0x00000b9a                PROVIDE (_etext, .)
+                0x00000b9a                PROVIDE (etext, .)
+
+.rodata         0x00000b9a        0x5
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x00000b9a        0x5 libmapper_serial_pic.a(citrus_mapper_serial.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00000ba0       0x4c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00000ba0       0x4c libmapper_serial_pic.a(citrus_mapper_serial.pico)
+
+.eh_frame       0x00000bec      0x12c
+ *(.eh_frame)
+ .eh_frame      0x00000bec       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x00000c28        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x00000c28       0xec libmapper_serial_pic.a(citrus_mapper_serial.pico)
+ .eh_frame      0x00000d14        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x00000d18       0x18
+ .note.netbsd.ident
+                0x00000d18       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x00000d30       0x14
+ .note.netbsd.pax
+                0x00000d30       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00000d44                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00001d44                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x00001d44        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x00001d44        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x00001d48        0x4 /usr/lib/crtendS.o
+                0x00001d48                __CTOR_LIST_END__
+
+.dtors          0x00001d4c        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x00001d4c        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x00001d50        0x4 /usr/lib/crtendS.o
+
+.jcr            0x00001d54        0x4
+ *(.jcr)
+ .jcr           0x00001d54        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x00001d54        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x00001d58       0xb8
+ *(.dynamic)
+ .dynamic       0x00001d58       0xb8 /usr/lib/crti.o
+                0x00001d58                _DYNAMIC
+
+.got            0x00001e10       0x18
+ *(.got)
+ .got           0x00001e10       0x18 /usr/lib/crti.o
+ *(.igot)
+                0x00001e28                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x00001e28       0x40
+ *(.got.plt)
+ .got.plt       0x00001e28       0x40 /usr/lib/crti.o
+                0x00001e28                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00001e68       0x50
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00001e68        0x0 /usr/lib/crti.o
+ .data          0x00001e68        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x00001e68       0x26 /usr/lib/crtbeginS.o
+                0x00001e68                __dso_handle
+ *fill*         0x00001e8e        0x2 
+ .data          0x00001e90        0x0 libmapper_serial_pic.a(citrus_mapper_serial.pico)
+ .data.rel.local
+                0x00001e90       0x28 libmapper_serial_pic.a(citrus_mapper_serial.pico)
+                0x00001e90                _citrus_mapper_serial_mapper_ops
+                0x00001ea4                _citrus_mapper_parallel_mapper_ops
+ .data          0x00001eb8        0x0 /usr/lib/crtendS.o
+ .data          0x00001eb8        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x00001eb8                _edata = .
+                0x00001eb8                PROVIDE (edata, .)
+                0x00001eb8                . = .
+                0x00001eb8                __bss_start = .
+
+.bss            0x00001eb8        0x0
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00001eb8        0x0 /usr/lib/crti.o
+ .bss           0x00001eb8        0x0 /usr/lib/crtbeginS.o
+ .bss           0x00001eb8        0x0 libmapper_serial_pic.a(citrus_mapper_serial.pico)
+ .bss           0x00001eb8        0x0 /usr/lib/crtendS.o
+ .bss           0x00001eb8        0x0 /usr/lib/crtn.o
+ *(COMMON)
+                0x00001eb8                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00001eb8                . = ALIGN (0x4)
+                0x00001eb8                . = ALIGN (0x4)
+                0x00001eb8                _end = .
+                0x00001eb8                PROVIDE (end, .)
+                0x00001eb8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libmapper_serial_pic.a(citrus_mapper_serial.pico)
+                                 0x30 (size before relaxing)
+
+.ident          0x00000000      0x127
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x49 libmapper_serial_pic.a(citrus_mapper_serial.pico)
+ .ident         0x000000b9       0x38 /usr/lib/crtendS.o
+ .ident         0x000000f1       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libmapper_serial.so.5.0 elf32-i386-minix)

@@ -1,0 +1,54 @@
+Initializing pid data structure....
+
+pidMap: 0
+
+Pid data structure initialized successfully!
+
+
+Printing pids that are taken...
+There are no pids taken
+
+Creating processes and allocating pids...
+Creating process 1.
+Pid allocation successful?: 0
+Process 1's pid is 300
+Creating process 2.
+Pid allocation successful?: 0
+Process 2's pid is 301
+Creating process 3.
+Pid allocation successful?: 0
+Process 3's pid is 302
+
+Printing pids that are taken...
+Pid 300 is taken
+Pid 301 is taken
+Pid 302 is taken
+
+Removing one process before adding more ...
+
+Printing pids that are taken...
+Pid 300 is taken
+Pid 302 is taken
+
+Adding more processes ...
+Creating process 4.
+Pid allocation successful?: 0
+Process 4's pid is 301
+
+Creating process 5.
+Pid allocation successful?: 0
+Process 5's pid is 303
+
+
+Printing pids that are taken...
+Pid 300 is taken
+Pid 301 is taken
+Pid 302 is taken
+Pid 303 is taken
+
+Removing all process...
+
+Printing pids that are taken...
+There are no pids taken
+
+Done showing examples!

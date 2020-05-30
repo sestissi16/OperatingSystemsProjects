@@ -1,0 +1,479 @@
+Archive member included because of file (symbol)
+
+libintl_pic.a(gettext_dummy.pico)
+                              (--whole-archive)
+libintl_pic.a(gettext.pico)   (--whole-archive)
+libintl_pic.a(plural_parser.pico)
+                              (--whole-archive)
+libintl_pic.a(sysdep.pico)    (--whole-archive)
+libintl_pic.a(strhash.pico)   (--whole-archive)
+libintl_pic.a(gettext_iconv.pico)
+                              (--whole-archive)
+libintl_pic.a(textdomain.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+_nl_msg_cat_cntr    0x4               libintl_pic.a(gettext_dummy.pico)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libintl_pic.a(gettext_dummy.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libintl_pic.a(gettext.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libintl_pic.a(plural_parser.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libintl_pic.a(sysdep.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libintl_pic.a(strhash.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libintl_pic.a(gettext_iconv.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libintl_pic.a(textdomain.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libintl_pic.a
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4      0x244
+ *(.hash)
+ .hash          0x000000f4      0x244 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000338      0x4c0
+ *(.dynsym)
+ .dynsym        0x00000338      0x4c0 /usr/lib/crti.o
+
+.dynstr         0x000007f8      0x34c
+ *(.dynstr)
+ .dynstr        0x000007f8      0x34c /usr/lib/crti.o
+
+.gnu.version    0x00000b44        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x00000b44        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x00000b44        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x00000b44      0xa48
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x00000b44      0x9d0 /usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x00001514        0x8 /usr/lib/crti.o
+ .rel.data.rel.local
+                0x0000151c       0x30 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000154c       0x40 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x0000158c      0x1a8
+ *(.rel.plt)
+ .rel.plt       0x0000158c      0x1a8 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x00001740        0xa
+ *(SORT(.init))
+ .init          0x00001740        0x3 /usr/lib/crti.o
+                0x00001740                _init
+ .init          0x00001743        0x5 /usr/lib/crtbeginS.o
+ .init          0x00001748        0x2 /usr/lib/crtn.o
+
+.plt            0x00001750      0x360
+ *(.plt)
+ .plt           0x00001750      0x360 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x00001ab0     0x32b8
+                0x00001ab0                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x00001ab0        0x0 /usr/lib/crti.o
+ .text          0x00001ab0       0xef /usr/lib/crtbeginS.o
+ *fill*         0x00001b9f        0x1 
+ .text          0x00001ba0        0x0 libintl_pic.a(gettext_dummy.pico)
+ .text          0x00001ba0     0x1ceb libintl_pic.a(gettext.pico)
+                0x00001ba0                gettext
+                0x00001bf0                dcngettext
+                0x00002ce0                dgettext
+                0x00002d30                dcgettext
+                0x00002d80                ngettext
+                0x00002dd0                dngettext
+                0x00002e20                pgettext
+                0x00002ec0                dpgettext
+                0x00002f60                dcpgettext
+                0x00003000                npgettext
+                0x000030a0                dnpgettext
+                0x00003140                dcnpgettext
+ *fill*         0x0000388b        0x5 
+ .text          0x00003890      0xf2f libintl_pic.a(plural_parser.pico)
+                0x00003890                _gettext_parse_plural
+                0x00003b80                _gettext_calculate_plural
+                0x00003d40                _gettext_free_plural
+ *fill*         0x000047bf        0x1 
+ .text          0x000047c0       0x9d libintl_pic.a(sysdep.pico)
+                0x000047c0                __intl_sysdep_get_string_by_tag
+ *fill*         0x0000485d        0x3 
+ .text          0x00004860       0x45 libintl_pic.a(strhash.pico)
+                0x00004860                __intl_string_hash
+ *fill*         0x000048a5        0xb 
+ .text          0x000048b0      0x248 libintl_pic.a(gettext_iconv.pico)
+                0x000048b0                __gettext_iconv
+ *fill*         0x00004af8        0x8 
+ .text          0x00004b00      0x267 libintl_pic.a(textdomain.pico)
+                0x00004b00                textdomain
+                0x00004b50                bindtextdomain
+                0x00004c90                bind_textdomain_codeset
+ *fill*         0x00004d67        0x1 
+ .text          0x00004d68        0x0 /usr/lib/crtendS.o
+ .text          0x00004d68        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x00004d70        0xa
+ *(SORT(.fini))
+ .fini          0x00004d70        0x3 /usr/lib/crti.o
+                0x00004d70                _fini
+ .fini          0x00004d73        0x5 /usr/lib/crtbeginS.o
+ .fini          0x00004d78        0x2 /usr/lib/crtn.o
+                0x00004d7a                PROVIDE (__etext, .)
+                0x00004d7a                PROVIDE (_etext, .)
+                0x00004d7a                PROVIDE (etext, .)
+
+.rodata         0x00004d7c      0x77c
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x00004d7c       0xb1 libintl_pic.a(gettext.pico)
+                                 0xbc (size before relaxing)
+ *fill*         0x00004e2d        0x3 
+ .rodata        0x00004e30       0xb8 libintl_pic.a(plural_parser.pico)
+ .rodata.str1.1
+                0x00004ee8       0x20 libintl_pic.a(plural_parser.pico)
+ .rodata.str1.1
+                0x00004f08      0x5e7 libintl_pic.a(sysdep.pico)
+                                0x606 (size before relaxing)
+ .rodata.str1.1
+                0x000054ef        0x9 libintl_pic.a(textdomain.pico)
+                                 0x1b (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000054f8      0x124
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000054f8      0x124 libintl_pic.a(gettext.pico)
+
+.eh_frame       0x0000561c      0x470
+ *(.eh_frame)
+ .eh_frame      0x0000561c       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x00005658        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x00005658      0x208 libintl_pic.a(gettext.pico)
+ .eh_frame      0x00005860      0x138 libintl_pic.a(plural_parser.pico)
+                                0x150 (size before relaxing)
+ .eh_frame      0x00005998       0x3c libintl_pic.a(sysdep.pico)
+                                 0x54 (size before relaxing)
+ .eh_frame      0x000059d4       0x1c libintl_pic.a(strhash.pico)
+                                 0x34 (size before relaxing)
+ .eh_frame      0x000059f0       0x3c libintl_pic.a(gettext_iconv.pico)
+                                 0x54 (size before relaxing)
+ .eh_frame      0x00005a2c       0x5c libintl_pic.a(textdomain.pico)
+                                 0x74 (size before relaxing)
+ .eh_frame      0x00005a88        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x00005a8c       0x18
+ .note.netbsd.ident
+                0x00005a8c       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x00005aa4       0x14
+ .note.netbsd.pax
+                0x00005aa4       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00005ab8                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00006000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x00006000        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x00006000        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x00006004        0x4 /usr/lib/crtendS.o
+                0x00006004                __CTOR_LIST_END__
+
+.dtors          0x00006008        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x00006008        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000600c        0x4 /usr/lib/crtendS.o
+
+.jcr            0x00006010        0x4
+ *(.jcr)
+ .jcr           0x00006010        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x00006010        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro    0x00006020      0x750
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x00006020       0x18 libintl_pic.a(gettext.pico)
+ .data.rel.ro.local
+                0x00006038      0x738 libintl_pic.a(sysdep.pico)
+                0x00006038                sysdep_pair_table
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x00006770       0xb0
+ *(.dynamic)
+ .dynamic       0x00006770       0xb0 /usr/lib/crti.o
+                0x00006770                _DYNAMIC
+
+.got            0x00006820       0x20
+ *(.got)
+ .got           0x00006820       0x20 /usr/lib/crti.o
+ *(.igot)
+                0x00006840                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x00006840       0xe0
+ *(.got.plt)
+ .got.plt       0x00006840       0xe0 /usr/lib/crti.o
+                0x00006840                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00006920      0xcb0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00006920        0x0 /usr/lib/crti.o
+ .data          0x00006920        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x00006920       0x26 /usr/lib/crtbeginS.o
+                0x00006920                __dso_handle
+ *fill*         0x00006946        0x2 
+ .data          0x00006948        0x0 libintl_pic.a(gettext_dummy.pico)
+ .data          0x00006948        0x0 libintl_pic.a(gettext.pico)
+ .data          0x00006948        0x8 libintl_pic.a(plural_parser.pico)
+ .data.rel.local
+                0x00006950       0x28 libintl_pic.a(plural_parser.pico)
+ .data          0x00006978        0x0 libintl_pic.a(sysdep.pico)
+ .data          0x00006978        0x0 libintl_pic.a(strhash.pico)
+ .data          0x00006978        0x0 libintl_pic.a(gettext_iconv.pico)
+ .data          0x00006978      0xc54 libintl_pic.a(textdomain.pico)
+                0x000071cc                __current_domainname
+ .data.rel.local
+                0x000075cc        0x4 libintl_pic.a(textdomain.pico)
+                0x000075cc                __bindings
+ .data          0x000075d0        0x0 /usr/lib/crtendS.o
+ .data          0x000075d0        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x000075d0                _edata = .
+                0x000075d0                PROVIDE (edata, .)
+                0x000075d0                . = .
+                0x000075d0                __bss_start = .
+
+.bss            0x000075d0      0x818
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000075d0        0x0 /usr/lib/crti.o
+ .bss           0x000075d0        0x0 /usr/lib/crtbeginS.o
+ .bss           0x000075d0        0x0 libintl_pic.a(gettext_dummy.pico)
+ .bss           0x000075d0      0x808 libintl_pic.a(gettext.pico)
+ .bss           0x00007dd8        0x0 libintl_pic.a(plural_parser.pico)
+ .bss           0x00007dd8        0x0 libintl_pic.a(sysdep.pico)
+ .bss           0x00007dd8        0x0 libintl_pic.a(strhash.pico)
+ .bss           0x00007dd8        0xc libintl_pic.a(gettext_iconv.pico)
+ .bss           0x00007de4        0x0 libintl_pic.a(textdomain.pico)
+ .bss           0x00007de4        0x0 /usr/lib/crtendS.o
+ .bss           0x00007de4        0x0 /usr/lib/crtn.o
+ *(COMMON)
+ COMMON         0x00007de4        0x4 libintl_pic.a(gettext_dummy.pico)
+                0x00007de4                _nl_msg_cat_cntr
+                0x00007de8                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00007de8                . = ALIGN (0x4)
+                0x00007de8                . = ALIGN (0x4)
+                0x00007de8                _end = .
+                0x00007de8                PROVIDE (end, .)
+                0x00007de8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libintl_pic.a(gettext_dummy.pico)
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 libintl_pic.a(gettext.pico)
+ .comment       0x00000000       0x30 libintl_pic.a(plural_parser.pico)
+ .comment       0x00000000       0x30 libintl_pic.a(sysdep.pico)
+ .comment       0x00000000       0x30 libintl_pic.a(strhash.pico)
+ .comment       0x00000000       0x30 libintl_pic.a(gettext_iconv.pico)
+ .comment       0x00000000       0x30 libintl_pic.a(textdomain.pico)
+
+.ident          0x00000000      0x1de
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x42 libintl_pic.a(gettext_dummy.pico)
+ .ident         0x000000b2       0x3d libintl_pic.a(gettext.pico)
+ .ident         0x000000ef       0x41 libintl_pic.a(plural_parser.pico)
+ .ident         0x00000130       0x40 libintl_pic.a(textdomain.pico)
+ .ident         0x00000170       0x38 /usr/lib/crtendS.o
+ .ident         0x000001a8       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libintl.so.1.1 elf32-i386-minix)

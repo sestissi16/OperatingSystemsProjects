@@ -1,0 +1,393 @@
+Archive member included because of file (symbol)
+
+libHZ_pic.a(citrus_hz.pico)   (--whole-archive)
+libHZ_pic.a(citrus_prop.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libHZ_pic.a(citrus_hz.pico)
+ .note.GNU-stack
+                0x00000000        0x0 libHZ_pic.a(citrus_prop.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libHZ_pic.a
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4       0xc8
+ *(.hash)
+ .hash          0x000000f4       0xc8 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x000001bc      0x1f0
+ *(.dynsym)
+ .dynsym        0x000001bc      0x1f0 /usr/lib/crti.o
+
+.dynstr         0x000003ac      0x1c0
+ *(.dynstr)
+ .dynstr        0x000003ac      0x1c0 /usr/lib/crti.o
+
+.gnu.version    0x0000056c        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x0000056c        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x0000056c        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x0000056c      0x188
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x0000056c       0x70 /usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x000005dc        0x8 /usr/lib/crti.o
+ .rel.data.rel.local
+                0x000005e4       0xd8 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x000006bc       0x38 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x000006f4       0xa8
+ *(.rel.plt)
+ .rel.plt       0x000006f4       0xa8 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x000007a0        0xa
+ *(SORT(.init))
+ .init          0x000007a0        0x3 /usr/lib/crti.o
+                0x000007a0                _init
+ .init          0x000007a3        0x5 /usr/lib/crtbeginS.o
+ .init          0x000007a8        0x2 /usr/lib/crtn.o
+
+.plt            0x000007b0      0x160
+ *(.plt)
+ .plt           0x000007b0      0x160 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x00000910     0x2f0c
+                0x00000910                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x00000910        0x0 /usr/lib/crti.o
+ .text          0x00000910       0xef /usr/lib/crtbeginS.o
+ *fill*         0x000009ff        0x1 
+ .text          0x00000a00     0x1f97 libHZ_pic.a(citrus_hz.pico)
+                0x00001bd0                _citrus_HZ_ctype_getops
+                0x00002010                _citrus_HZ_stdenc_getops
+ *fill*         0x00002997        0x9 
+ .text          0x000029a0      0xe7a libHZ_pic.a(citrus_prop.pico)
+                0x000029a0                _citrus_prop_parse_variable
+ *fill*         0x0000381a        0x2 
+ .text          0x0000381c        0x0 /usr/lib/crtendS.o
+ .text          0x0000381c        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x00003820        0xa
+ *(SORT(.fini))
+ .fini          0x00003820        0x3 /usr/lib/crti.o
+                0x00003820                _fini
+ .fini          0x00003823        0x5 /usr/lib/crtbeginS.o
+ .fini          0x00003828        0x2 /usr/lib/crtn.o
+                0x0000382a                PROVIDE (__etext, .)
+                0x0000382a                PROVIDE (_etext, .)
+                0x0000382a                PROVIDE (etext, .)
+
+.rodata         0x0000382c       0xad
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000382c       0x3c libHZ_pic.a(citrus_hz.pico)
+ .rodata.str1.1
+                0x00003868       0x22 libHZ_pic.a(citrus_hz.pico)
+ *fill*         0x0000388a        0x2 
+ .rodata        0x0000388c       0x3c libHZ_pic.a(citrus_prop.pico)
+ .rodata.str1.1
+                0x000038c8       0x11 libHZ_pic.a(citrus_prop.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000038dc      0x15c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000038dc      0x15c libHZ_pic.a(citrus_hz.pico)
+
+.eh_frame       0x00003a38      0x560
+ *(.eh_frame)
+ .eh_frame      0x00003a38       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x00003a74        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x00003a74      0x460 libHZ_pic.a(citrus_hz.pico)
+ .eh_frame      0x00003ed4       0xc0 libHZ_pic.a(citrus_prop.pico)
+                                 0xd8 (size before relaxing)
+ .eh_frame      0x00003f94        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x00003f98       0x18
+ .note.netbsd.ident
+                0x00003f98       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x00003fb0       0x14
+ .note.netbsd.pax
+                0x00003fb0       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00003fc4                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00004000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x00004000        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x00004000        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x00004004        0x4 /usr/lib/crtendS.o
+                0x00004004                __CTOR_LIST_END__
+
+.dtors          0x00004008        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x00004008        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000400c        0x4 /usr/lib/crtendS.o
+
+.jcr            0x00004010        0x4
+ *(.jcr)
+ .jcr           0x00004010        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x00004010        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro    0x00004014       0x64
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x00004014       0x54 libHZ_pic.a(citrus_hz.pico)
+ .data.rel.ro.local
+                0x00004068       0x10 libHZ_pic.a(citrus_prop.pico)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x00004078       0xb8
+ *(.dynamic)
+ .dynamic       0x00004078       0xb8 /usr/lib/crti.o
+                0x00004078                _DYNAMIC
+
+.got            0x00004130       0x1c
+ *(.got)
+ .got           0x00004130       0x1c /usr/lib/crti.o
+ *(.igot)
+                0x0000414c                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x0000414c       0x60
+ *(.got.plt)
+ .got.plt       0x0000414c       0x60 /usr/lib/crti.o
+                0x0000414c                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000041ac       0x9c
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000041ac        0x0 /usr/lib/crti.o
+ .data          0x000041ac        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x000041ac       0x26 /usr/lib/crtbeginS.o
+                0x000041ac                __dso_handle
+ *fill*         0x000041d2        0x2 
+ .data          0x000041d4        0x0 libHZ_pic.a(citrus_hz.pico)
+ .data.rel.local
+                0x000041d4       0x74 libHZ_pic.a(citrus_hz.pico)
+                0x000041d4                _citrus_HZ_ctype_ops
+                0x00004220                _citrus_HZ_stdenc_ops
+ .data          0x00004248        0x0 libHZ_pic.a(citrus_prop.pico)
+ .data          0x00004248        0x0 /usr/lib/crtendS.o
+ .data          0x00004248        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x00004248                _edata = .
+                0x00004248                PROVIDE (edata, .)
+                0x00004248                . = .
+                0x00004248                __bss_start = .
+
+.bss            0x00004248        0x0
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00004248        0x0 /usr/lib/crti.o
+ .bss           0x00004248        0x0 /usr/lib/crtbeginS.o
+ .bss           0x00004248        0x0 libHZ_pic.a(citrus_hz.pico)
+ .bss           0x00004248        0x0 libHZ_pic.a(citrus_prop.pico)
+ .bss           0x00004248        0x0 /usr/lib/crtendS.o
+ .bss           0x00004248        0x0 /usr/lib/crtn.o
+ *(COMMON)
+                0x00004248                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00004248                . = ALIGN (0x4)
+                0x00004248                . = ALIGN (0x4)
+                0x00004248                _end = .
+                0x00004248                PROVIDE (end, .)
+                0x00004248                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libHZ_pic.a(citrus_hz.pico)
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 libHZ_pic.a(citrus_prop.pico)
+
+.ident          0x00000000      0x152
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x39 libHZ_pic.a(citrus_hz.pico)
+ .ident         0x000000a9       0x3b libHZ_pic.a(citrus_prop.pico)
+ .ident         0x000000e4       0x38 /usr/lib/crtendS.o
+ .ident         0x0000011c       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libHZ.so.5.0 elf32-i386-minix)

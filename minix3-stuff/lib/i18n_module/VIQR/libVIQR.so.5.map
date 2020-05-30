@@ -1,0 +1,374 @@
+Archive member included because of file (symbol)
+
+libVIQR_pic.a(citrus_viqr.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 libVIQR_pic.a(citrus_viqr.pico)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/crti.o
+LOAD /usr/lib/crtbeginS.o
+LOAD libVIQR_pic.a
+LOAD /usr/lib/libc.so
+LOAD /usr/lib/crtendS.o
+LOAD /usr/lib/crtn.o
+                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000f4       0xa0
+ *(.hash)
+ .hash          0x000000f4       0xa0 /usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000194      0x150
+ *(.dynsym)
+ .dynsym        0x00000194      0x150 /usr/lib/crti.o
+
+.dynstr         0x000002e4      0x131
+ *(.dynstr)
+ .dynstr        0x000002e4      0x131 /usr/lib/crti.o
+
+.gnu.version    0x00000416        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_d  0x00000418        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/crti.o
+
+.gnu.version_r  0x00000418        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/lib/crti.o
+
+.rel.dyn        0x00000418      0x548
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x00000418      0x430 /usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x00000848        0x8 /usr/lib/crti.o
+ .rel.data.rel.local
+                0x00000850       0xd8 /usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00000928       0x38 /usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x00000000        0x0 /usr/lib/crti.o
+
+.rel.plt        0x00000960       0x58
+ *(.rel.plt)
+ .rel.plt       0x00000960       0x58 /usr/lib/crti.o
+ *(.rel.iplt)
+
+.init           0x000009c0        0xa
+ *(SORT(.init))
+ .init          0x000009c0        0x3 /usr/lib/crti.o
+                0x000009c0                _init
+ .init          0x000009c3        0x5 /usr/lib/crtbeginS.o
+ .init          0x000009c8        0x2 /usr/lib/crtn.o
+
+.plt            0x000009d0       0xc0
+ *(.plt)
+ .plt           0x000009d0       0xc0 /usr/lib/crti.o
+ *(.iplt)
+
+.text           0x00000a90     0x188c
+                0x00000a90                PROVIDE (__eprol, .)
+ *(.text)
+ .text          0x00000a90        0x0 /usr/lib/crti.o
+ .text          0x00000a90       0xef /usr/lib/crtbeginS.o
+ *fill*         0x00000b7f        0x1 
+ .text          0x00000b80     0x1799 libVIQR_pic.a(citrus_viqr.pico)
+                0x00001ac0                _citrus_VIQR_ctype_getops
+                0x00001d80                _citrus_VIQR_stdenc_getops
+ *fill*         0x00002319        0x3 
+ .text          0x0000231c        0x0 /usr/lib/crtendS.o
+ .text          0x0000231c        0x0 /usr/lib/crtn.o
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+
+.fini           0x00002320        0xa
+ *(SORT(.fini))
+ .fini          0x00002320        0x3 /usr/lib/crti.o
+                0x00002320                _fini
+ .fini          0x00002323        0x5 /usr/lib/crtbeginS.o
+ .fini          0x00002328        0x2 /usr/lib/crtn.o
+                0x0000232a                PROVIDE (__etext, .)
+                0x0000232a                PROVIDE (_etext, .)
+                0x0000232a                PROVIDE (etext, .)
+
+.rodata         0x0000232a      0x1ce
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000232a      0x1ce libVIQR_pic.a(citrus_viqr.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000024f8      0x11c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000024f8      0x11c libVIQR_pic.a(citrus_viqr.pico)
+
+.eh_frame       0x00002614      0x45c
+ *(.eh_frame)
+ .eh_frame      0x00002614       0x3c /usr/lib/crti.o
+                                 0x40 (size before relaxing)
+ .eh_frame      0x00002650        0x0 /usr/lib/crtbeginS.o
+ .eh_frame      0x00002650      0x41c libVIQR_pic.a(citrus_viqr.pico)
+ .eh_frame      0x00002a6c        0x4 /usr/lib/crtendS.o
+
+.note.netbsd.ident
+                0x00002a70       0x18
+ .note.netbsd.ident
+                0x00002a70       0x18 /usr/lib/crti.o
+
+.note.netbsd.pax
+                0x00002a88       0x14
+ .note.netbsd.pax
+                0x00002a88       0x14 /usr/lib/crti.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00002a9c                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00003000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x00003000        0x8
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x00003000        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x00003004        0x4 /usr/lib/crtendS.o
+                0x00003004                __CTOR_LIST_END__
+
+.dtors          0x00003008        0x8
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x00003008        0x4 /usr/lib/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000300c        0x4 /usr/lib/crtendS.o
+
+.jcr            0x00003010        0x4
+ *(.jcr)
+ .jcr           0x00003010        0x0 /usr/lib/crtbeginS.o
+ .jcr           0x00003010        0x4 /usr/lib/crtendS.o
+
+.data.rel.ro    0x00003014      0x400
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x00003014      0x400 libVIQR_pic.a(citrus_viqr.pico)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x00003414       0xb8
+ *(.dynamic)
+ .dynamic       0x00003414       0xb8 /usr/lib/crti.o
+                0x00003414                _DYNAMIC
+
+.got            0x000034cc       0x1c
+ *(.got)
+ .got           0x000034cc       0x1c /usr/lib/crti.o
+ *(.igot)
+                0x000034e8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x000034e8       0x38
+ *(.got.plt)
+ .got.plt       0x000034e8       0x38 /usr/lib/crti.o
+                0x000034e8                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00003520       0x9c
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00003520        0x0 /usr/lib/crti.o
+ .data          0x00003520        0x0 /usr/lib/crtbeginS.o
+ .data.rel      0x00003520       0x26 /usr/lib/crtbeginS.o
+                0x00003520                __dso_handle
+ *fill*         0x00003546        0x2 
+ .data          0x00003548        0x0 libVIQR_pic.a(citrus_viqr.pico)
+ .data.rel.local
+                0x00003548       0x74 libVIQR_pic.a(citrus_viqr.pico)
+                0x00003548                _citrus_VIQR_ctype_ops
+                0x00003594                _citrus_VIQR_stdenc_ops
+ .data          0x000035bc        0x0 /usr/lib/crtendS.o
+ .data          0x000035bc        0x0 /usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x000035bc                _edata = .
+                0x000035bc                PROVIDE (edata, .)
+                0x000035bc                . = .
+                0x000035bc                __bss_start = .
+
+.bss            0x000035bc        0x0
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000035bc        0x0 /usr/lib/crti.o
+ .bss           0x000035bc        0x0 /usr/lib/crtbeginS.o
+ .bss           0x000035bc        0x0 libVIQR_pic.a(citrus_viqr.pico)
+ .bss           0x000035bc        0x0 /usr/lib/crtendS.o
+ .bss           0x000035bc        0x0 /usr/lib/crtn.o
+ *(COMMON)
+                0x000035bc                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000035bc                . = ALIGN (0x4)
+                0x000035bc                . = ALIGN (0x4)
+                0x000035bc                _end = .
+                0x000035bc                PROVIDE (end, .)
+                0x000035bc                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f libVIQR_pic.a(citrus_viqr.pico)
+                                 0x30 (size before relaxing)
+
+.ident          0x00000000      0x11b
+ .ident         0x00000000       0x36 /usr/lib/crti.o
+ .ident         0x00000036       0x3a /usr/lib/crtbeginS.o
+ .ident         0x00000070       0x3d libVIQR_pic.a(citrus_viqr.pico)
+ .ident         0x000000ad       0x38 /usr/lib/crtendS.o
+ .ident         0x000000e5       0x36 /usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libVIQR.so.5.0 elf32-i386-minix)
